@@ -1,1 +1,611 @@
-﻿{"payload":{"meta":{"Graph":{"@Type":"81297157","@Value":{"Guid":"(Guid)82ebf3d4-c1ad-42e0-a7f3-d3586e782913","ParentGuid":"(Guid)2949f2ad-24a2-4e65-998d-b038ab84df5c","Name":"(string)Library Manager","Properties":{"@Type":"2c41fa04:IDictionary","@Value":[{"@Key":"(Guid)2b939252-744a-453a-a81d-2c518c4e6dff","@Value":{"@Type":"2b939252","@Value":{"PlaceholderResolution":{"@Type":"{}","@Value":{"FloatingPointUtils":"(string)FloatingPointUtils, 4.0.0.0 (System)","Matrix":"(string)Matrix, 4.0.0.0 (CODESYS)"}}}}},{"@Key":"(Guid)61a44170-da69-49a8-99a4-c61280b4559c","@Value":{"@Type":"61a44170","@Value":{"PlaceholderResolution":{"@Type":"{}","@Value":{"AsynchronousJobManager":"(string)Asynchronous Job Manager, 5.0.0.0 (CODESYS)","CBML":"(string)Common Behaviour Model, 5.0.0.0 (CODESYS)","ElementCollections":"(string)Element Collections, 5.0.0.0 (CODESYS)","MemoryBlockManager":"(string)Memory Block Manager, 3.5.21.30 (CODESYS)","SharedDataUtilities":"(string)SharedData Utilities for MultiCore, 5.0.0.0 (CODESYS)"}}}}}]},"TypeGuid":"(Guid)adb5cb65-8e1d-4a00-b70a-375ea27582f3","EmbeddedTypeGuids":null}},"TypeInfos":{"2b939252":"{2b939252-744a-453a-a81d-2c518c4e6dff}","2c41fa04":"{2c41fa04-1834-41c1-816e-303c7aa2c05b}","61a44170":"{61a44170-da69-49a8-99a4-c61280b4559c}","81297157":"{81297157-7ec9-45ce-845e-84cab2b88ade}","Guid":"System.Guid","string":"System.String"}},"object":{"Graph":{"@Type":"adb5cb65","@Value":{"ParameterTable":{"@Type":"[]","@Value":[]},"Items":{"@Type":"ArrayList:IList","@Value":[{"@Type":"4723ebe7","@Value":{"DefaultResolution":"(string)Standard, * (System)","Optional":"(bool)False","Params":null,"PlaceholderName":"(string)Standard","ResolverGuid":"(Guid)b303f5ce-75ff-4668-a777-7da8debb449c","Id":"(long)3729512315","Namespace":"(string)Standard","SystemLibrary":"(bool)False","HideWhenReferencedAsDependency":"(bool)False","PublishSymbolsInContainer":"(bool)False","QualifiedOnly":"(bool)False","LinkAllContent":"(bool)False"}},{"@Type":"4723ebe7","@Value":{"DefaultResolution":"(string)Breakpoint Logging Functions, * (3S - Smart Software Solutions GmbH)","Optional":"(bool)False","Params":null,"PlaceholderName":"(string)BreakpointLogging","ResolverGuid":"(Guid)b303f5ce-75ff-4668-a777-7da8debb449c","Id":"(long)3148395785","Namespace":"(string)BPLog","SystemLibrary":"(bool)True","HideWhenReferencedAsDependency":"(bool)False","PublishSymbolsInContainer":"(bool)False","QualifiedOnly":"(bool)False","LinkAllContent":"(bool)False"}},{"@Type":"4723ebe7","@Value":{"DefaultResolution":"(string)SM3_Basic_Visu, 4.19.0.0 (CODESYS)","Optional":"(bool)False","Params":null,"PlaceholderName":"(string)SM3_Basic_Visu","ResolverGuid":"(Guid)b303f5ce-75ff-4668-a777-7da8debb449c","Id":"(long)590120662","Namespace":"(string)SM3_Basic_Visu","SystemLibrary":"(bool)True","HideWhenReferencedAsDependency":"(bool)False","PublishSymbolsInContainer":"(bool)False","QualifiedOnly":"(bool)False","LinkAllContent":"(bool)False"}},{"@Type":"4723ebe7","@Value":{"DefaultResolution":"(string)SM3_CamBuilder, 4.19.0.0 (CODESYS)","Optional":"(bool)False","Params":null,"PlaceholderName":"(string)SM3_CamBuilder","ResolverGuid":"(Guid)b303f5ce-75ff-4668-a777-7da8debb449c","Id":"(long)1735225415","Namespace":"(string)SMCB","SystemLibrary":"(bool)True","HideWhenReferencedAsDependency":"(bool)False","PublishSymbolsInContainer":"(bool)False","QualifiedOnly":"(bool)False","LinkAllContent":"(bool)False"}},{"@Type":"4723ebe7","@Value":{"DefaultResolution":"(string)SM3_Robotics, 4.20.1.0 (CODESYS)","Optional":"(bool)False","Params":null,"PlaceholderName":"(string)SM3_Robotics","ResolverGuid":"(Guid)b303f5ce-75ff-4668-a777-7da8debb449c","Id":"(long)304804194","Namespace":"(string)SM3_Robotics","SystemLibrary":"(bool)True","HideWhenReferencedAsDependency":"(bool)False","PublishSymbolsInContainer":"(bool)False","QualifiedOnly":"(bool)False","LinkAllContent":"(bool)False"}},{"@Type":"4723ebe7","@Value":{"DefaultResolution":"(string)SM3_Robotics_Visu, 4.20.0.0 (CODESYS)","Optional":"(bool)False","Params":null,"PlaceholderName":"(string)SM3_Robotics_Visu","ResolverGuid":"(Guid)b303f5ce-75ff-4668-a777-7da8debb449c","Id":"(long)1089998099","Namespace":"(string)SM3_Robotics_Visu","SystemLibrary":"(bool)True","HideWhenReferencedAsDependency":"(bool)False","PublishSymbolsInContainer":"(bool)False","QualifiedOnly":"(bool)False","LinkAllContent":"(bool)False"}},{"@Type":"4723ebe7","@Value":{"DefaultResolution":"(string)SM3_Transformation, 4.20.0.0 (CODESYS)","Optional":"(bool)False","Params":null,"PlaceholderName":"(string)SM3_Transformation","ResolverGuid":"(Guid)b303f5ce-75ff-4668-a777-7da8debb449c","Id":"(long)2127928291","Namespace":"(string)TRAFO","SystemLibrary":"(bool)True","HideWhenReferencedAsDependency":"(bool)False","PublishSymbolsInContainer":"(bool)False","QualifiedOnly":"(bool)False","LinkAllContent":"(bool)False"}},{"@Type":"4723ebe7","@Value":{"DefaultResolution":"(string)IoStandard, 3.5.22.0 (System)","Optional":"(bool)False","Params":null,"PlaceholderName":"(string)IoStandard","ResolverGuid":"(Guid)b303f5ce-75ff-4668-a777-7da8debb449c","Id":"(long)1309995803","Namespace":"(string)IoStandard","SystemLibrary":"(bool)True","HideWhenReferencedAsDependency":"(bool)False","PublishSymbolsInContainer":"(bool)False","QualifiedOnly":"(bool)False","LinkAllContent":"(bool)True"}},{"@Type":"4723ebe7","@Value":{"DefaultResolution":"(string)SM3_Basic, 4.20.0.0 (CODESYS)","Optional":"(bool)False","Params":null,"PlaceholderName":"(string)SM3_Basic","ResolverGuid":"(Guid)b303f5ce-75ff-4668-a777-7da8debb449c","Id":"(long)1125790718","Namespace":"(string)SM3_Basic","SystemLibrary":"(bool)True","HideWhenReferencedAsDependency":"(bool)False","PublishSymbolsInContainer":"(bool)False","QualifiedOnly":"(bool)False","LinkAllContent":"(bool)False"}},{"@Type":"4723ebe7","@Value":{"DefaultResolution":"(string)SM3_CNC, 4.20.0.0 (CODESYS)","Optional":"(bool)False","Params":null,"PlaceholderName":"(string)SM3_CNC","ResolverGuid":"(Guid)b303f5ce-75ff-4668-a777-7da8debb449c","Id":"(long)3148782393","Namespace":"(string)SM3_CNC","SystemLibrary":"(bool)True","HideWhenReferencedAsDependency":"(bool)False","PublishSymbolsInContainer":"(bool)False","QualifiedOnly":"(bool)False","LinkAllContent":"(bool)False"}},{"@Type":"4723ebe7","@Value":{"DefaultResolution":"(string)3SLicense, 0.0.0.0 (CODESYS)","Optional":"(bool)False","Params":null,"PlaceholderName":"(string)3SLicense","ResolverGuid":"(Guid)97c3b452-d9fa-4ac2-9d0c-3d420aa6d95b","Id":"(long)3276470648","Namespace":"(string)_3S_LICENSE","SystemLibrary":"(bool)True","HideWhenReferencedAsDependency":"(bool)False","PublishSymbolsInContainer":"(bool)False","QualifiedOnly":"(bool)False","LinkAllContent":"(bool)False"}},{"@Type":"51a11660","@Value":{"Optional":"(bool)False","Params":null,"Name":"(string)IoDrvGPIO, 4.23.0.0 (CODESYS)","Id":"(long)1258213669","Namespace":"(string)IoDrvGPIO","SystemLibrary":"(bool)True","HideWhenReferencedAsDependency":"(bool)False","PublishSymbolsInContainer":"(bool)False","QualifiedOnly":"(bool)False","LinkAllContent":"(bool)False"}},{"@Type":"4723ebe7","@Value":{"DefaultResolution":"(string)CAA Device Diagnosis, 3.5.22.0 (CAA Technical Workgroup)","Optional":"(bool)False","Params":null,"PlaceholderName":"(string)CAA Device Diagnosis","ResolverGuid":"(Guid)b303f5ce-75ff-4668-a777-7da8debb449c","Id":"(long)1130389924","Namespace":"(string)DED","SystemLibrary":"(bool)True","HideWhenReferencedAsDependency":"(bool)False","PublishSymbolsInContainer":"(bool)False","QualifiedOnly":"(bool)True","LinkAllContent":"(bool)False"}},{"@Type":"4723ebe7","@Value":{"DefaultResolution":"(string)SAE J1939 Interfaces, * (Roy Ratcliffe)","Optional":"(bool)False","Params":null,"PlaceholderName":"(string)SAEJ1939","ResolverGuid":"(Guid)b303f5ce-75ff-4668-a777-7da8debb449c","Id":"(long)2322161373","Namespace":"(string)SAEJ1939","SystemLibrary":"(bool)False","HideWhenReferencedAsDependency":"(bool)False","PublishSymbolsInContainer":"(bool)False","QualifiedOnly":"(bool)False","LinkAllContent":"(bool)False"}},{"@Type":"4723ebe7","@Value":{"DefaultResolution":"(string)CannyIEC Library, * (Roy Ratcliffe)","Optional":"(bool)False","Params":null,"PlaceholderName":"(string)CannyIEC","ResolverGuid":"(Guid)b303f5ce-75ff-4668-a777-7da8debb449c","Id":"(long)3105938228","Namespace":"(string)CANNY","SystemLibrary":"(bool)False","HideWhenReferencedAsDependency":"(bool)False","PublishSymbolsInContainer":"(bool)False","QualifiedOnly":"(bool)False","LinkAllContent":"(bool)False"}},{"@Type":"4723ebe7","@Value":{"DefaultResolution":"(string)CANbusDevice, 4.3.0.0 (CODESYS)","Optional":"(bool)False","Params":null,"PlaceholderName":"(string)CANbusDevice","ResolverGuid":"(Guid)b303f5ce-75ff-4668-a777-7da8debb449c","Id":"(long)749663232","Namespace":"(string)CANbusDevice","SystemLibrary":"(bool)True","HideWhenReferencedAsDependency":"(bool)False","PublishSymbolsInContainer":"(bool)False","QualifiedOnly":"(bool)False","LinkAllContent":"(bool)False"}},{"@Type":"4723ebe7","@Value":{"DefaultResolution":"(string)IoDrvJ1939, 4.2.0.0 (CODESYS)","Optional":"(bool)False","Params":null,"PlaceholderName":"(string)IoDrvJ1939","ResolverGuid":"(Guid)b303f5ce-75ff-4668-a777-7da8debb449c","Id":"(long)2642156606","Namespace":"(string)J1939","SystemLibrary":"(bool)True","HideWhenReferencedAsDependency":"(bool)False","PublishSymbolsInContainer":"(bool)False","QualifiedOnly":"(bool)False","LinkAllContent":"(bool)False"}},{"@Type":"4723ebe7","@Value":{"DefaultResolution":"(string)VisuElems, 4.10.0.0 (System)","Optional":"(bool)False","Params":null,"PlaceholderName":"(string)System_VisuElems","ResolverGuid":"(Guid)2717eb6a-dd07-4c66-8d8d-cacebd7b18ae","Id":"(long)1590622950","Namespace":"(string)VisuElems","SystemLibrary":"(bool)True","HideWhenReferencedAsDependency":"(bool)False","PublishSymbolsInContainer":"(bool)False","QualifiedOnly":"(bool)False","LinkAllContent":"(bool)False"}},{"@Type":"4723ebe7","@Value":{"DefaultResolution":"(string)VisuElemMeter, 4.10.0.0 (System)","Optional":"(bool)False","Params":null,"PlaceholderName":"(string)System_VisuElemMeter","ResolverGuid":"(Guid)2717eb6a-dd07-4c66-8d8d-cacebd7b18ae","Id":"(long)1911764393","Namespace":"(string)VisuElemMeter","SystemLibrary":"(bool)True","HideWhenReferencedAsDependency":"(bool)False","PublishSymbolsInContainer":"(bool)False","QualifiedOnly":"(bool)False","LinkAllContent":"(bool)False"}},{"@Type":"4723ebe7","@Value":{"DefaultResolution":"(string)VisuElemsSpecialControls, 4.7.0.0 (System)","Optional":"(bool)False","Params":null,"PlaceholderName":"(string)System_VisuElemsSpecialControls","ResolverGuid":"(Guid)2717eb6a-dd07-4c66-8d8d-cacebd7b18ae","Id":"(long)4051350186","Namespace":"(string)VisuElemsSpecialControls","SystemLibrary":"(bool)True","HideWhenReferencedAsDependency":"(bool)False","PublishSymbolsInContainer":"(bool)False","QualifiedOnly":"(bool)False","LinkAllContent":"(bool)False"}},{"@Type":"4723ebe7","@Value":{"DefaultResolution":"(string)VisuElemsWinControls, 4.10.0.0 (System)","Optional":"(bool)False","Params":null,"PlaceholderName":"(string)System_VisuElemsWinControls","ResolverGuid":"(Guid)2717eb6a-dd07-4c66-8d8d-cacebd7b18ae","Id":"(long)1367524581","Namespace":"(string)VisuElemsWinControls","SystemLibrary":"(bool)True","HideWhenReferencedAsDependency":"(bool)False","PublishSymbolsInContainer":"(bool)False","QualifiedOnly":"(bool)False","LinkAllContent":"(bool)False"}},{"@Type":"4723ebe7","@Value":{"DefaultResolution":"(string)VisuElemTextEditor, 4.8.0.0 (System)","Optional":"(bool)False","Params":null,"PlaceholderName":"(string)System_VisuElemTextEditor","ResolverGuid":"(Guid)2717eb6a-dd07-4c66-8d8d-cacebd7b18ae","Id":"(long)760917254","Namespace":"(string)VisuElemTextEditor","SystemLibrary":"(bool)True","HideWhenReferencedAsDependency":"(bool)False","PublishSymbolsInContainer":"(bool)False","QualifiedOnly":"(bool)False","LinkAllContent":"(bool)False"}},{"@Type":"4723ebe7","@Value":{"DefaultResolution":"(string)VisuElemTrace, 4.10.0.0 (System)","Optional":"(bool)False","Params":null,"PlaceholderName":"(string)System_VisuElemTrace","ResolverGuid":"(Guid)2717eb6a-dd07-4c66-8d8d-cacebd7b18ae","Id":"(long)3093842079","Namespace":"(string)VisuElemTrace","SystemLibrary":"(bool)True","HideWhenReferencedAsDependency":"(bool)False","PublishSymbolsInContainer":"(bool)False","QualifiedOnly":"(bool)False","LinkAllContent":"(bool)False"}},{"@Type":"4723ebe7","@Value":{"DefaultResolution":"(string)VisuNativeControl, 4.9.0.0 (System)","Optional":"(bool)False","Params":null,"PlaceholderName":"(string)System_VisuNativeControl","ResolverGuid":"(Guid)2717eb6a-dd07-4c66-8d8d-cacebd7b18ae","Id":"(long)4020001529","Namespace":"(string)VisuNativeControl","SystemLibrary":"(bool)True","HideWhenReferencedAsDependency":"(bool)False","PublishSymbolsInContainer":"(bool)False","QualifiedOnly":"(bool)False","LinkAllContent":"(bool)False"}},{"@Type":"4723ebe7","@Value":{"DefaultResolution":"(string)VisuElemsAlarm, 4.10.0.0 (System)","Optional":"(bool)False","Params":null,"PlaceholderName":"(string)System_VisuElemsAlarm","ResolverGuid":"(Guid)2717eb6a-dd07-4c66-8d8d-cacebd7b18ae","Id":"(long)1136528987","Namespace":"(string)VisuElemsAlarm","SystemLibrary":"(bool)True","HideWhenReferencedAsDependency":"(bool)False","PublishSymbolsInContainer":"(bool)False","QualifiedOnly":"(bool)False","LinkAllContent":"(bool)False"}},{"@Type":"4723ebe7","@Value":{"DefaultResolution":"(string)VisuElemCamDisplayer, 4.7.0.0 (System)","Optional":"(bool)False","Params":null,"PlaceholderName":"(string)System_VisuElemCamDisplayer","ResolverGuid":"(Guid)2717eb6a-dd07-4c66-8d8d-cacebd7b18ae","Id":"(long)525915637","Namespace":"(string)VisuElemCamDisplayer","SystemLibrary":"(bool)True","HideWhenReferencedAsDependency":"(bool)False","PublishSymbolsInContainer":"(bool)False","QualifiedOnly":"(bool)False","LinkAllContent":"(bool)False"}},{"@Type":"4723ebe7","@Value":{"DefaultResolution":"(string)VisuElem3DPath, 4.7.0.0 (System)","Optional":"(bool)False","Params":null,"PlaceholderName":"(string)System_VisuElem3DPath","ResolverGuid":"(Guid)2717eb6a-dd07-4c66-8d8d-cacebd7b18ae","Id":"(long)1652083215","Namespace":"(string)VisuElem3DPath","SystemLibrary":"(bool)True","HideWhenReferencedAsDependency":"(bool)False","PublishSymbolsInContainer":"(bool)False","QualifiedOnly":"(bool)False","LinkAllContent":"(bool)False"}},{"@Type":"4723ebe7","@Value":{"DefaultResolution":"(string)VisuElemsDateTime, 4.9.0.0 (System)","Optional":"(bool)False","Params":null,"PlaceholderName":"(string)System_VisuElemsDateTime","ResolverGuid":"(Guid)2717eb6a-dd07-4c66-8d8d-cacebd7b18ae","Id":"(long)1583334154","Namespace":"(string)VisuElemsDateTime","SystemLibrary":"(bool)True","HideWhenReferencedAsDependency":"(bool)False","PublishSymbolsInContainer":"(bool)False","QualifiedOnly":"(bool)False","LinkAllContent":"(bool)False"}},{"@Type":"4723ebe7","@Value":{"DefaultResolution":"(string)VisuElemXYChart, 4.10.0.0 (System)","Optional":"(bool)False","Params":null,"PlaceholderName":"(string)System_VisuElemXYChart","ResolverGuid":"(Guid)2717eb6a-dd07-4c66-8d8d-cacebd7b18ae","Id":"(long)4079700274","Namespace":"(string)VisuElemXYChart","SystemLibrary":"(bool)True","HideWhenReferencedAsDependency":"(bool)False","PublishSymbolsInContainer":"(bool)False","QualifiedOnly":"(bool)False","LinkAllContent":"(bool)False"}},{"@Type":"4723ebe7","@Value":{"DefaultResolution":"(string)VisuInputs, 4.7.0.0 (System)","Optional":"(bool)False","Params":null,"PlaceholderName":"(string)System_VisuInputs","ResolverGuid":"(Guid)2717eb6a-dd07-4c66-8d8d-cacebd7b18ae","Id":"(long)466624112","Namespace":"(string)VisuInputs","SystemLibrary":"(bool)True","HideWhenReferencedAsDependency":"(bool)False","PublishSymbolsInContainer":"(bool)False","QualifiedOnly":"(bool)False","LinkAllContent":"(bool)False"}}]},"PlaceholderRedirectionTable":{"@Type":"Hashtable:IDictionary","@Value":{"CannyIEC":"(string)CannyIEC Library, 0.3.0.0 (Roy Ratcliffe)","Collections":"(string)Collections, 3.5.17.0 (System)","SAEJ1939":"(string)SAE J1939 Interfaces, 0.0.2.0 (Roy Ratcliffe)","Standard":"(string)Standard, 3.5.22.0 (System)","Standard64":"(string)Standard64, 3.5.20.0 (System)","StringUtils":"(string)StringUtils, 3.5.22.0 (System)","Util":"(string)Util, 3.5.22.0 (System)","VisuSymbols":"(string)VisuSymbols, 4.5.0.0 (System)"}}}},"TypeInfos":{"4723ebe7":"{4723ebe7-5bfc-43c6-be6b-5097002ef6b4}","51a11660":"{51a11660-6c0d-4598-8c08-419c5845ea1f}","adb5cb65":"{adb5cb65-8e1d-4a00-b70a-375ea27582f3}","ArrayList":"System.Collections.ArrayList","bool":"System.Boolean","Guid":"System.Guid","Hashtable":"System.Collections.Hashtable","long":"System.Int64","string":"System.String"}}},"FormatVersion":"1.0"}
+{
+  "payload": {
+    "meta": {
+      "Graph": {
+        "@Type": "81297157",
+        "@Value": {
+          "Guid": "(Guid)82ebf3d4-c1ad-42e0-a7f3-d3586e782913",
+          "ParentGuid": "(Guid)2949f2ad-24a2-4e65-998d-b038ab84df5c",
+          "Name": "(string)Library Manager",
+          "Properties": {
+            "@Type": "2c41fa04:IDictionary",
+            "@Value": [
+              {
+                "@Key": "(Guid)2b939252-744a-453a-a81d-2c518c4e6dff",
+                "@Value": {
+                  "@Type": "2b939252",
+                  "@Value": {
+                    "PlaceholderResolution": {
+                      "@Type": "{}",
+                      "@Value": {
+                        "FloatingPointUtils": "(string)FloatingPointUtils, 4.0.0.0 (System)",
+                        "Matrix": "(string)Matrix, 4.0.0.0 (CODESYS)"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "@Key": "(Guid)61a44170-da69-49a8-99a4-c61280b4559c",
+                "@Value": {
+                  "@Type": "61a44170",
+                  "@Value": {
+                    "PlaceholderResolution": {
+                      "@Type": "{}",
+                      "@Value": {
+                        "AsynchronousJobManager": "(string)Asynchronous Job Manager, 5.0.0.0 (CODESYS)",
+                        "CBML": "(string)Common Behaviour Model, 5.0.0.0 (CODESYS)",
+                        "ElementCollections": "(string)Element Collections, 5.0.0.0 (CODESYS)",
+                        "MemoryBlockManager": "(string)Memory Block Manager, 3.5.21.30 (CODESYS)",
+                        "SharedDataUtilities": "(string)SharedData Utilities for MultiCore, 5.0.0.0 (CODESYS)"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "TypeGuid": "(Guid)adb5cb65-8e1d-4a00-b70a-375ea27582f3",
+          "EmbeddedTypeGuids": null
+        }
+      },
+      "TypeInfos": {
+        "2b939252": "{2b939252-744a-453a-a81d-2c518c4e6dff}",
+        "2c41fa04": "{2c41fa04-1834-41c1-816e-303c7aa2c05b}",
+        "61a44170": "{61a44170-da69-49a8-99a4-c61280b4559c}",
+        "81297157": "{81297157-7ec9-45ce-845e-84cab2b88ade}",
+        "Guid": "System.Guid",
+        "string": "System.String"
+      }
+    },
+    "object": {
+      "Graph": {
+        "@Type": "adb5cb65",
+        "@Value": {
+          "ParameterTable": {
+            "@Type": "[]",
+            "@Value": []
+          },
+          "Items": {
+            "@Type": "ArrayList:IList",
+            "@Value": [
+              {
+                "@Type": "4723ebe7",
+                "@Value": {
+                  "DefaultResolution": "(string)Standard, * (System)",
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "PlaceholderName": "(string)Standard",
+                  "ResolverGuid": "(Guid)b303f5ce-75ff-4668-a777-7da8debb449c",
+                  "Id": "(long)3729512315",
+                  "Namespace": "(string)Standard",
+                  "SystemLibrary": "(bool)False",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              },
+              {
+                "@Type": "4723ebe7",
+                "@Value": {
+                  "DefaultResolution": "(string)Breakpoint Logging Functions, * (3S - Smart Software Solutions GmbH)",
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "PlaceholderName": "(string)BreakpointLogging",
+                  "ResolverGuid": "(Guid)b303f5ce-75ff-4668-a777-7da8debb449c",
+                  "Id": "(long)3148395785",
+                  "Namespace": "(string)BPLog",
+                  "SystemLibrary": "(bool)True",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              },
+              {
+                "@Type": "4723ebe7",
+                "@Value": {
+                  "DefaultResolution": "(string)SM3_Basic_Visu, 4.19.0.0 (CODESYS)",
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "PlaceholderName": "(string)SM3_Basic_Visu",
+                  "ResolverGuid": "(Guid)b303f5ce-75ff-4668-a777-7da8debb449c",
+                  "Id": "(long)590120662",
+                  "Namespace": "(string)SM3_Basic_Visu",
+                  "SystemLibrary": "(bool)True",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              },
+              {
+                "@Type": "4723ebe7",
+                "@Value": {
+                  "DefaultResolution": "(string)SM3_CamBuilder, 4.19.0.0 (CODESYS)",
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "PlaceholderName": "(string)SM3_CamBuilder",
+                  "ResolverGuid": "(Guid)b303f5ce-75ff-4668-a777-7da8debb449c",
+                  "Id": "(long)1735225415",
+                  "Namespace": "(string)SMCB",
+                  "SystemLibrary": "(bool)True",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              },
+              {
+                "@Type": "4723ebe7",
+                "@Value": {
+                  "DefaultResolution": "(string)SM3_Robotics, 4.20.1.0 (CODESYS)",
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "PlaceholderName": "(string)SM3_Robotics",
+                  "ResolverGuid": "(Guid)b303f5ce-75ff-4668-a777-7da8debb449c",
+                  "Id": "(long)304804194",
+                  "Namespace": "(string)SM3_Robotics",
+                  "SystemLibrary": "(bool)True",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              },
+              {
+                "@Type": "4723ebe7",
+                "@Value": {
+                  "DefaultResolution": "(string)SM3_Robotics_Visu, 4.20.0.0 (CODESYS)",
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "PlaceholderName": "(string)SM3_Robotics_Visu",
+                  "ResolverGuid": "(Guid)b303f5ce-75ff-4668-a777-7da8debb449c",
+                  "Id": "(long)1089998099",
+                  "Namespace": "(string)SM3_Robotics_Visu",
+                  "SystemLibrary": "(bool)True",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              },
+              {
+                "@Type": "4723ebe7",
+                "@Value": {
+                  "DefaultResolution": "(string)SM3_Transformation, 4.20.0.0 (CODESYS)",
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "PlaceholderName": "(string)SM3_Transformation",
+                  "ResolverGuid": "(Guid)b303f5ce-75ff-4668-a777-7da8debb449c",
+                  "Id": "(long)2127928291",
+                  "Namespace": "(string)TRAFO",
+                  "SystemLibrary": "(bool)True",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              },
+              {
+                "@Type": "4723ebe7",
+                "@Value": {
+                  "DefaultResolution": "(string)IoStandard, 3.5.22.0 (System)",
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "PlaceholderName": "(string)IoStandard",
+                  "ResolverGuid": "(Guid)b303f5ce-75ff-4668-a777-7da8debb449c",
+                  "Id": "(long)1309995803",
+                  "Namespace": "(string)IoStandard",
+                  "SystemLibrary": "(bool)True",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)True"
+                }
+              },
+              {
+                "@Type": "4723ebe7",
+                "@Value": {
+                  "DefaultResolution": "(string)SM3_Basic, 4.20.0.0 (CODESYS)",
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "PlaceholderName": "(string)SM3_Basic",
+                  "ResolverGuid": "(Guid)b303f5ce-75ff-4668-a777-7da8debb449c",
+                  "Id": "(long)1125790718",
+                  "Namespace": "(string)SM3_Basic",
+                  "SystemLibrary": "(bool)True",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              },
+              {
+                "@Type": "4723ebe7",
+                "@Value": {
+                  "DefaultResolution": "(string)SM3_CNC, 4.20.0.0 (CODESYS)",
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "PlaceholderName": "(string)SM3_CNC",
+                  "ResolverGuid": "(Guid)b303f5ce-75ff-4668-a777-7da8debb449c",
+                  "Id": "(long)3148782393",
+                  "Namespace": "(string)SM3_CNC",
+                  "SystemLibrary": "(bool)True",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              },
+              {
+                "@Type": "4723ebe7",
+                "@Value": {
+                  "DefaultResolution": "(string)3SLicense, 0.0.0.0 (CODESYS)",
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "PlaceholderName": "(string)3SLicense",
+                  "ResolverGuid": "(Guid)97c3b452-d9fa-4ac2-9d0c-3d420aa6d95b",
+                  "Id": "(long)3276470648",
+                  "Namespace": "(string)_3S_LICENSE",
+                  "SystemLibrary": "(bool)True",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              },
+              {
+                "@Type": "51a11660",
+                "@Value": {
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "Name": "(string)IoDrvGPIO, 4.23.0.0 (CODESYS)",
+                  "Id": "(long)1258213669",
+                  "Namespace": "(string)IoDrvGPIO",
+                  "SystemLibrary": "(bool)True",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              },
+              {
+                "@Type": "4723ebe7",
+                "@Value": {
+                  "DefaultResolution": "(string)CAA Device Diagnosis, 3.5.22.0 (CAA Technical Workgroup)",
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "PlaceholderName": "(string)CAA Device Diagnosis",
+                  "ResolverGuid": "(Guid)b303f5ce-75ff-4668-a777-7da8debb449c",
+                  "Id": "(long)1130389924",
+                  "Namespace": "(string)DED",
+                  "SystemLibrary": "(bool)True",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)True",
+                  "LinkAllContent": "(bool)False"
+                }
+              },
+              {
+                "@Type": "4723ebe7",
+                "@Value": {
+                  "DefaultResolution": "(string)SAE J1939 Interfaces, * (Roy Ratcliffe)",
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "PlaceholderName": "(string)SAEJ1939",
+                  "ResolverGuid": "(Guid)b303f5ce-75ff-4668-a777-7da8debb449c",
+                  "Id": "(long)2322161373",
+                  "Namespace": "(string)SAEJ1939",
+                  "SystemLibrary": "(bool)False",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              },
+              {
+                "@Type": "4723ebe7",
+                "@Value": {
+                  "DefaultResolution": "(string)CannyIEC Library, * (Roy Ratcliffe)",
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "PlaceholderName": "(string)CannyIEC",
+                  "ResolverGuid": "(Guid)b303f5ce-75ff-4668-a777-7da8debb449c",
+                  "Id": "(long)3105938228",
+                  "Namespace": "(string)CANNY",
+                  "SystemLibrary": "(bool)False",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              },
+              {
+                "@Type": "4723ebe7",
+                "@Value": {
+                  "DefaultResolution": "(string)CANbusDevice, 4.3.0.0 (CODESYS)",
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "PlaceholderName": "(string)CANbusDevice",
+                  "ResolverGuid": "(Guid)b303f5ce-75ff-4668-a777-7da8debb449c",
+                  "Id": "(long)749663232",
+                  "Namespace": "(string)CANbusDevice",
+                  "SystemLibrary": "(bool)True",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              },
+              {
+                "@Type": "4723ebe7",
+                "@Value": {
+                  "DefaultResolution": "(string)IoDrvJ1939, 4.2.0.0 (CODESYS)",
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "PlaceholderName": "(string)IoDrvJ1939",
+                  "ResolverGuid": "(Guid)b303f5ce-75ff-4668-a777-7da8debb449c",
+                  "Id": "(long)2642156606",
+                  "Namespace": "(string)J1939",
+                  "SystemLibrary": "(bool)True",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              },
+              {
+                "@Type": "4723ebe7",
+                "@Value": {
+                  "DefaultResolution": "(string)VisuElems, 4.10.0.0 (System)",
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "PlaceholderName": "(string)System_VisuElems",
+                  "ResolverGuid": "(Guid)2717eb6a-dd07-4c66-8d8d-cacebd7b18ae",
+                  "Id": "(long)1590622950",
+                  "Namespace": "(string)VisuElems",
+                  "SystemLibrary": "(bool)True",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              },
+              {
+                "@Type": "4723ebe7",
+                "@Value": {
+                  "DefaultResolution": "(string)VisuElemMeter, 4.10.0.0 (System)",
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "PlaceholderName": "(string)System_VisuElemMeter",
+                  "ResolverGuid": "(Guid)2717eb6a-dd07-4c66-8d8d-cacebd7b18ae",
+                  "Id": "(long)1911764393",
+                  "Namespace": "(string)VisuElemMeter",
+                  "SystemLibrary": "(bool)True",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              },
+              {
+                "@Type": "4723ebe7",
+                "@Value": {
+                  "DefaultResolution": "(string)VisuElemsSpecialControls, 4.7.0.0 (System)",
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "PlaceholderName": "(string)System_VisuElemsSpecialControls",
+                  "ResolverGuid": "(Guid)2717eb6a-dd07-4c66-8d8d-cacebd7b18ae",
+                  "Id": "(long)4051350186",
+                  "Namespace": "(string)VisuElemsSpecialControls",
+                  "SystemLibrary": "(bool)True",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              },
+              {
+                "@Type": "4723ebe7",
+                "@Value": {
+                  "DefaultResolution": "(string)VisuElemsWinControls, 4.10.0.0 (System)",
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "PlaceholderName": "(string)System_VisuElemsWinControls",
+                  "ResolverGuid": "(Guid)2717eb6a-dd07-4c66-8d8d-cacebd7b18ae",
+                  "Id": "(long)1367524581",
+                  "Namespace": "(string)VisuElemsWinControls",
+                  "SystemLibrary": "(bool)True",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              },
+              {
+                "@Type": "4723ebe7",
+                "@Value": {
+                  "DefaultResolution": "(string)VisuElemTextEditor, 4.8.0.0 (System)",
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "PlaceholderName": "(string)System_VisuElemTextEditor",
+                  "ResolverGuid": "(Guid)2717eb6a-dd07-4c66-8d8d-cacebd7b18ae",
+                  "Id": "(long)760917254",
+                  "Namespace": "(string)VisuElemTextEditor",
+                  "SystemLibrary": "(bool)True",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              },
+              {
+                "@Type": "4723ebe7",
+                "@Value": {
+                  "DefaultResolution": "(string)VisuElemTrace, 4.10.0.0 (System)",
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "PlaceholderName": "(string)System_VisuElemTrace",
+                  "ResolverGuid": "(Guid)2717eb6a-dd07-4c66-8d8d-cacebd7b18ae",
+                  "Id": "(long)3093842079",
+                  "Namespace": "(string)VisuElemTrace",
+                  "SystemLibrary": "(bool)True",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              },
+              {
+                "@Type": "4723ebe7",
+                "@Value": {
+                  "DefaultResolution": "(string)VisuNativeControl, 4.9.0.0 (System)",
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "PlaceholderName": "(string)System_VisuNativeControl",
+                  "ResolverGuid": "(Guid)2717eb6a-dd07-4c66-8d8d-cacebd7b18ae",
+                  "Id": "(long)4020001529",
+                  "Namespace": "(string)VisuNativeControl",
+                  "SystemLibrary": "(bool)True",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              },
+              {
+                "@Type": "4723ebe7",
+                "@Value": {
+                  "DefaultResolution": "(string)VisuElemsAlarm, 4.10.0.0 (System)",
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "PlaceholderName": "(string)System_VisuElemsAlarm",
+                  "ResolverGuid": "(Guid)2717eb6a-dd07-4c66-8d8d-cacebd7b18ae",
+                  "Id": "(long)1136528987",
+                  "Namespace": "(string)VisuElemsAlarm",
+                  "SystemLibrary": "(bool)True",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              },
+              {
+                "@Type": "4723ebe7",
+                "@Value": {
+                  "DefaultResolution": "(string)VisuElemCamDisplayer, 4.7.0.0 (System)",
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "PlaceholderName": "(string)System_VisuElemCamDisplayer",
+                  "ResolverGuid": "(Guid)2717eb6a-dd07-4c66-8d8d-cacebd7b18ae",
+                  "Id": "(long)525915637",
+                  "Namespace": "(string)VisuElemCamDisplayer",
+                  "SystemLibrary": "(bool)True",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              },
+              {
+                "@Type": "4723ebe7",
+                "@Value": {
+                  "DefaultResolution": "(string)VisuElem3DPath, 4.7.0.0 (System)",
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "PlaceholderName": "(string)System_VisuElem3DPath",
+                  "ResolverGuid": "(Guid)2717eb6a-dd07-4c66-8d8d-cacebd7b18ae",
+                  "Id": "(long)1652083215",
+                  "Namespace": "(string)VisuElem3DPath",
+                  "SystemLibrary": "(bool)True",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              },
+              {
+                "@Type": "4723ebe7",
+                "@Value": {
+                  "DefaultResolution": "(string)VisuElemsDateTime, 4.9.0.0 (System)",
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "PlaceholderName": "(string)System_VisuElemsDateTime",
+                  "ResolverGuid": "(Guid)2717eb6a-dd07-4c66-8d8d-cacebd7b18ae",
+                  "Id": "(long)1583334154",
+                  "Namespace": "(string)VisuElemsDateTime",
+                  "SystemLibrary": "(bool)True",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              },
+              {
+                "@Type": "4723ebe7",
+                "@Value": {
+                  "DefaultResolution": "(string)VisuElemXYChart, 4.10.0.0 (System)",
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "PlaceholderName": "(string)System_VisuElemXYChart",
+                  "ResolverGuid": "(Guid)2717eb6a-dd07-4c66-8d8d-cacebd7b18ae",
+                  "Id": "(long)4079700274",
+                  "Namespace": "(string)VisuElemXYChart",
+                  "SystemLibrary": "(bool)True",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              },
+              {
+                "@Type": "4723ebe7",
+                "@Value": {
+                  "DefaultResolution": "(string)VisuInputs, 4.7.0.0 (System)",
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "PlaceholderName": "(string)System_VisuInputs",
+                  "ResolverGuid": "(Guid)2717eb6a-dd07-4c66-8d8d-cacebd7b18ae",
+                  "Id": "(long)466624112",
+                  "Namespace": "(string)VisuInputs",
+                  "SystemLibrary": "(bool)True",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              }
+            ]
+          },
+          "PlaceholderRedirectionTable": {
+            "@Type": "Hashtable:IDictionary",
+            "@Value": {
+              "CannyIEC": "(string)CannyIEC Library, 0.3.0.0 (Roy Ratcliffe)",
+              "Collections": "(string)Collections, 3.5.17.0 (System)",
+              "SAEJ1939": "(string)SAE J1939 Interfaces, 0.0.2.0 (Roy Ratcliffe)",
+              "Standard": "(string)Standard, 3.5.22.0 (System)",
+              "Standard64": "(string)Standard64, 3.5.20.0 (System)",
+              "StringUtils": "(string)StringUtils, 3.5.22.0 (System)",
+              "Util": "(string)Util, 3.5.22.0 (System)",
+              "VisuSymbols": "(string)VisuSymbols, 4.5.0.0 (System)"
+            }
+          }
+        }
+      },
+      "TypeInfos": {
+        "4723ebe7": "{4723ebe7-5bfc-43c6-be6b-5097002ef6b4}",
+        "51a11660": "{51a11660-6c0d-4598-8c08-419c5845ea1f}",
+        "adb5cb65": "{adb5cb65-8e1d-4a00-b70a-375ea27582f3}",
+        "ArrayList": "System.Collections.ArrayList",
+        "bool": "System.Boolean",
+        "Guid": "System.Guid",
+        "Hashtable": "System.Collections.Hashtable",
+        "long": "System.Int64",
+        "string": "System.String"
+      }
+    }
+  },
+  "FormatVersion": "1.0"
+}

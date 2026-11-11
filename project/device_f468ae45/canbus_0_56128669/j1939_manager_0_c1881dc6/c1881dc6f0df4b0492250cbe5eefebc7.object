@@ -1,1 +1,933 @@
-﻿{"payload":{"meta":{"Graph":{"@Type":"81297157","@Value":{"Guid":"(Guid)c1881dc6-f0df-4b04-9225-0cbe5eefebc7","ParentGuid":"(Guid)56128669-982b-45e8-968b-c03cbaa64851","Name":"(string)J1939_Manager_0","Properties":{"@Type":"2c41fa04:IDictionary","@Value":[{"@Key":"(Guid)cdadfc2b-8598-4621-ad56-5b1df7db910f","@Value":{"@Type":"cdadfc2b","@Value":{"DeviceIdentification":{"@Type":"05ee0b98","@Value":{"Type":"(int)24","Id":"(string)0000 0001","Version":"(string)4.2.0.0","BaseName":null}}}}}]},"TypeGuid":"(Guid)225bfe47-7336-4dbc-9419-4105a7c831fa","EmbeddedTypeGuids":null}},"TypeInfos":{"05ee0b98":"{05ee0b98-6639-4276-bc32-b75578b819ef}","2c41fa04":"{2c41fa04-1834-41c1-816e-303c7aa2c05b}","81297157":"{81297157-7ec9-45ce-845e-84cab2b88ade}","cdadfc2b":"{cdadfc2b-8598-4621-ad56-5b1df7db910f}","Guid":"System.Guid","int":"System.Int32","string":"System.String"}},"object":{"Graph":{"@Type":"225bfe47","@Value":{"UniqueIdGenerator":"(string)4118","TypeList":null,"NeedsBusCycle":"(bool)False","Id":{"@Type":"05ee0b98","@Value":{"Type":"(int)24","Id":"(string)0000 0001","Version":"(string)4.2.0.0","BaseName":null}},"DefaultDeviceInfo":{"@Type":"59a90934","@Value":{"Name":"(string)J1939_Manager","Description":"(string)J1939 Manager","Vendor":"(string)CODESYS","OrderNumber":"(string)","Categories":{"@Type":"[int]","@Value":"GAAAAA=="},"Families":{"@Type":"[string]","@Value":[]},"Custom":"(string)","DefaultInstanceName":null}},"DeviceParameterSet":{"@Type":"abc12bfe","@Value":{"Params":{"@Type":"[]","@Value":[]},"LmGuid":"(Guid)30e24e46-241c-5cc7-a754-d2aacc088e7d","Sections":null,"AlwaysMapping":"(bool)False","EditorName":null,"AlwaysMappingMode":{"@Type":"9d1b24fb:Enum","@Value":"OnlyIfUnused"},"CreateBitChannels":"(bool)False"}},"Disable":"(bool)False","Exclude":"(bool)False","Connectors":{"@Type":"ArrayList:IList","@Value":[]},"ConnectorList":{"@Type":"52a6325f","@Value":{"InnerList":{"@Type":"ArrayList:IList","@Value":[{"@Type":"850f737d","@Value":{"VisibleInterfaceName":{"@Type":"35cf7b1a","@Value":{"Default":"(string)Common.CANbus"}},"ConnectorObjectGuid":"(Guid)00000000-0000-0000-0000-000000000000","IsExplicit":"(bool)False","ModuleType":"(ushort)257","Interface":"(string)Common.CANbus","Role":{"@Type":"6827a808:Enum","@Value":"Child"},"ConnectorId":"(int)0","Hostpath":"(int)-1","Adapters":{"@Type":"1da2f14a","@Value":{"Adapters":{"@Type":"ArrayList:IList","@Value":[{"@Type":"6d49a564","@Value":{"AllowEmptySlot":"(bool)False","DefaultModules":null,"Modules":{"@Type":"[Guid]","@Value":["(Guid)56128669-982b-45e8-968b-c03cbaa64851"]},"IncludeSlotNumber":"(bool)False","StartSlotNumber":"(uint)0","SlotNames":null,"HiddenSlot":"(bool)False"}}]}}},"HostParameterSet":{"@Type":"abc12bfe","@Value":{"Params":{"@Type":"[]","@Value":[]},"LmGuid":"(Guid)4c0f0c50-cca2-5c10-88e4-98652ea3b88a","Sections":null,"AlwaysMapping":"(bool)False","EditorName":null,"AlwaysMappingMode":{"@Type":"9d1b24fb:Enum","@Value":"OnlyIfUnused"},"CreateBitChannels":"(bool)False"}},"BusCycleTaskGuid":"(Guid)00000000-0000-0000-0000-000000000000","DriverInfo":{"@Type":"4f958885","@Value":{"RequiredLibs":{"@Type":"ArrayList:IList","@Value":[]},"RequiredTasks":null,"NeedsBusCycle":"(bool)False","BusCycleTask":"(string)","IoApp":"(Guid)00000000-0000-0000-0000-000000000000","IoAppSet":"(bool)False","PositionIds":{"@Type":"[long]","@Value":"BBAAAAAAAAAFEAAAAAAAAAYQAAAAAAAA"},"UseSlowestTask":"(bool)False","NeedsBusCycleBeforeRead":"(bool)False","GenerateForceVariables":"(bool)False","EnableDiagnosis":"(bool)False","AdditionalParameterSetting":"(uint)0","ShowWarningsAsErrors":"(bool)False","DiagnosisCheckboxMode":{"@Type":"96a7290c:Enum","@Value":"Enabled"},"SkipOverlapCheck":"(bool)False","SymbolicAccessMode":{"@Type":"866ccdec:Enum","@Value":"Disabled"},"OnlineChangeDevice":{"@Type":"e1779e08:Enum","@Value":"Hidden"},"SupportOnlineChange":"(bool)False","DeviceScanSupported":"(bool)False","DeviceNominateSupported":"(bool)False","DeviceIdentifySupported":"(bool)False","DeviceUploadDescriptionSupported":"(bool)False","UpdateIOsInStop":"(bool)False","StopResetBehaviourSetting":{"@Type":"f333ad6d:Enum","@Value":"KeepCurrentValues"},"StopResetBehaviourUserProgram":"(string)","BusCycleTaskGuid":"(Guid)00000000-0000-0000-0000-000000000000","PlcAlwaysMapping":"(bool)False","PlCAlwaysMappingMode":{"@Type":"9d1b24fb:Enum","@Value":"OnlyIfUnused"}}},"CustomItems":{"@Type":"7d23305a:IList","@Value":[]},"ModuleId":"(int)-1","IoUpdateTask":null,"AdditionalInterfaces":{"@Type":"ArrayList:IList","@Value":[]},"Constraints":{"@Type":"ArrayList:IList","@Value":[]},"hideInStatusPage":"(bool)True","updateAllowed":"(bool)True","fixedInputAddress":"(string)","fixedOutputAddress":"(string)","DownloadParamsDevDescOrder":"(bool)False","AllowOnlyDevices":{"@Type":"ArrayList:IList","@Value":[]},"InitialStatusFlag":"(uint)1","UseBlobInitConst":"(bool)False","AlwaysMappingMode":{"@Type":"9d1b24fb:Enum","@Value":"OnlyIfUnused"},"ConnectorGroup":"(uint)0","AllowedPages":{"@Type":"[string]","@Value":[]},"AlwaysMapping":"(bool)False","Client":"(string)","MaxInputSize":"(uint)0","MaxOutputSize":"(uint)0","MaxInOutputSize":"(uint)0","ClientTypeGuid":"(Guid)00000000-0000-0000-0000-000000000000","ClientConnectorInterface":"(string)","ClientConnectorId":"(int)-1","AlwaysMappingDisabled":"(bool)False"}},{"@Type":"850f737d","@Value":{"VisibleInterfaceName":{"@Type":"35cf7b1a","@Value":{"Namespace":"(string)local","Identifier":"(string)NONE","Default":"(string)J1939"}},"ConnectorObjectGuid":"(Guid)00000000-0000-0000-0000-000000000000","IsExplicit":"(bool)False","ModuleType":"(ushort)24","Interface":"(string)Common.J1939","Role":{"@Type":"6827a808:Enum","@Value":"Parent"},"ConnectorId":"(int)1","Hostpath":"(int)0","Adapters":{"@Type":"1da2f14a","@Value":{"Adapters":{"@Type":"ArrayList:IList","@Value":[{"@Type":"3f828f0b","@Value":{"Modules":{"@Type":"ArrayList:IList","@Value":[]},"MaxDevices":"(int)2147483647","SupportPlaceholderObjects":"(bool)False"}}]}}},"HostParameterSet":{"@Type":"abc12bfe","@Value":{"Params":{"@Type":"[]","@Value":[{"@Type":"8c994079","@Value":{"Id":"(uint)0","OnlineAccess":{"@Type":"f7a1fdea:Enum","@Value":"Read"},"Download":"(bool)False","DalaElement":{"@Type":"08a69302","@Value":{"FilterFlags":null,"OnlineAccess":{"@Type":"f7a1fdea:Enum","@Value":"Read"},"PositionId":"(long)4107","EditorPositionId":"(long)4108","VisibleName":{"@Type":"35cf7b1a","@Value":{"Namespace":"(string)localStrings","Identifier":"(string)J1939Database","Default":"(string)J1939Database"}},"Identifier":"(string)0","Type":"(string)STRING"}},"ParamType":"(string)std:STRING","IndexInDevDesc":"(long)0"}},{"@Type":"8c994079","@Value":{"Id":"(uint)1","OfflineAccess":{"@Type":"f7a1fdea:Enum","@Value":"None"},"OnlineAccess":{"@Type":"f7a1fdea:Enum","@Value":"None"},"DalaElement":{"@Type":"08a69302","@Value":{"FilterFlags":null,"OfflineAccess":{"@Type":"f7a1fdea:Enum","@Value":"None"},"OnlineAccess":{"@Type":"f7a1fdea:Enum","@Value":"None"},"PositionId":"(long)4109","EditorPositionId":"(long)4110","VisibleName":{"@Type":"35cf7b1a","@Value":{"Namespace":"(string)localStrings","Identifier":"(string)InstancePointer","Default":"(string)Instance Pointer"}},"Identifier":"(string)1","Value":"(string)0","Type":"(string)__XWORD","Default":"(string)0"}},"ParamType":"(string)std:__XWORD","IndexInDevDesc":"(long)1"}},{"@Type":"8c994079","@Value":{"Id":"(uint)8","OfflineAccess":{"@Type":"f7a1fdea:Enum","@Value":"None"},"OnlineAccess":{"@Type":"f7a1fdea:Enum","@Value":"None"},"DiagType":{"@Type":"55948f0f:Enum","@Value":"Acknowledge"},"DalaElement":{"@Type":"08a69302","@Value":{"FilterFlags":null,"OfflineAccess":{"@Type":"f7a1fdea:Enum","@Value":"None"},"OnlineAccess":{"@Type":"f7a1fdea:Enum","@Value":"None"},"PositionId":"(long)4111","EditorPositionId":"(long)4112","Description":{"@Type":"35cf7b1a","@Value":{"Namespace":"(string)localStrings","Identifier":"(string)DiagAck","Default":"(string)Diag Acknowledge"}},"VisibleName":{"@Type":"35cf7b1a","@Value":{"Namespace":"(string)localStrings","Identifier":"(string)DiagAck","Default":"(string)Diag Acknowledge"}},"Identifier":"(string)8","Value":"(string)FALSE","Type":"(string)BOOL","Default":"(string)FALSE"}},"ParamType":"(string)std:BOOL","IndexInDevDesc":"(long)2"}},{"@Type":"8c994079","@Value":{"Id":"(uint)9","OfflineAccess":{"@Type":"f7a1fdea:Enum","@Value":"None"},"OnlineAccess":{"@Type":"f7a1fdea:Enum","@Value":"None"},"Download":"(bool)False","DalaElement":{"@Type":"08a69302","@Value":{"FilterFlags":null,"OfflineAccess":{"@Type":"f7a1fdea:Enum","@Value":"None"},"OnlineAccess":{"@Type":"f7a1fdea:Enum","@Value":"None"},"PositionId":"(long)4113","EditorPositionId":"(long)4114","VisibleName":{"@Type":"35cf7b1a","@Value":{"Namespace":"(string)localStrings","Identifier":"(string)ShowLoggerPage","Default":"(string)Show Logger Page"}},"Identifier":"(string)9","Value":"(string)TRUE","Type":"(string)BOOL","Default":"(string)TRUE"}},"ParamType":"(string)std:BOOL","IndexInDevDesc":"(long)3"}},{"@Type":"8c994079","@Value":{"Id":"(uint)254","OnlineAccess":{"@Type":"f7a1fdea:Enum","@Value":"Read"},"DalaElement":{"@Type":"08a69302","@Value":{"FilterFlags":null,"OnlineAccess":{"@Type":"f7a1fdea:Enum","@Value":"Read"},"PositionId":"(long)4115","EditorPositionId":"(long)4116","VisibleName":{"@Type":"35cf7b1a","@Value":{"Namespace":"(string)localStrings","Identifier":"(string)TxMsgPoolSize","Default":"(string)Number of Tx Messages"}},"Identifier":"(string)254","Value":"(string)256","Type":"(string)WORD","Default":"(string)256"}},"ParamType":"(string)std:WORD","IndexInDevDesc":"(long)4"}},{"@Type":"8c994079","@Value":{"Id":"(uint)1879052288","OfflineAccess":{"@Type":"f7a1fdea:Enum","@Value":"Read"},"OnlineAccess":{"@Type":"f7a1fdea:Enum","@Value":"Read"},"DalaElement":{"@Type":"08a69302","@Value":{"FilterFlags":null,"OfflineAccess":{"@Type":"f7a1fdea:Enum","@Value":"Read"},"OnlineAccess":{"@Type":"f7a1fdea:Enum","@Value":"Read"},"PositionId":"(long)4117","EditorPositionId":"(long)4118","VisibleName":{"@Type":"35cf7b1a","@Value":{"Namespace":"(string)localStrings","Identifier":"(string)ConfigVersion","Default":"(string)Config Version"}},"Identifier":"(string)1879052288","Value":"(string)50663178","Type":"(string)DWORD","Default":"(string)50663178"}},"ParamType":"(string)std:DWORD","IndexInDevDesc":"(long)5"}}]},"LmGuid":"(Guid)7a20f926-3f6f-5c08-857f-f37b77ae9aa3","Sections":null,"AlwaysMapping":"(bool)False","EditorName":null,"AlwaysMappingMode":{"@Type":"9d1b24fb:Enum","@Value":"OnlyIfUnused"},"CreateBitChannels":"(bool)False"}},"BusCycleTaskGuid":"(Guid)00000000-0000-0000-0000-000000000000","DriverInfo":{"@Type":"4f958885","@Value":{"RequiredLibs":{"@Type":"ArrayList:IList","@Value":[{"@Type":"94d8f601","@Value":{"LibName":"(string)IoDrvJ1939","Vendor":"(string)CODESYS","Version":"(string)*","Identifier":"(string)IoDrvJ1939","FbInstances":{"@Type":"ArrayList:IList","@Value":[{"@Type":"1a6d9caa","@Value":{"FbName":"(string)IoDrvJ1939","BaseName":"(string)$(DeviceName)","Instance":{"@Type":"47edf8ea","@Value":{"CreateVariable":"(bool)True","Variable":"(string)J1939_Manager_0"}},"InitMethod":"(string)Initialize","CyclicCalls":{"@Type":"ArrayList:IList","@Value":[]},"Location":{"@Type":"4da2c5bd:Enum","@Value":"GVL"},"FbNameDiag":"(string)IoDrvJ1939Diag","PositionId":"(long)4106"}}]},"PlaceHolderLib":"(string)IoDrvJ1939","loadAsSystemLibrary":"(bool)True","IsDiagnosisLib":"(bool)False","AddedByAP":"(bool)False","Client":"(string)"}}]},"RequiredTasks":null,"NeedsBusCycle":"(bool)True","BusCycleTask":"(string)","IoApp":"(Guid)00000000-0000-0000-0000-000000000000","IoAppSet":"(bool)False","PositionIds":{"@Type":"[long]","@Value":"BxAAAAAAAAAIEAAAAAAAAAkQAAAAAAAA"},"UseSlowestTask":"(bool)False","NeedsBusCycleBeforeRead":"(bool)True","GenerateForceVariables":"(bool)False","EnableDiagnosis":"(bool)False","AdditionalParameterSetting":"(uint)0","ShowWarningsAsErrors":"(bool)False","DiagnosisCheckboxMode":{"@Type":"96a7290c:Enum","@Value":"Enabled"},"SkipOverlapCheck":"(bool)False","SymbolicAccessMode":{"@Type":"866ccdec:Enum","@Value":"Disabled"},"OnlineChangeDevice":{"@Type":"e1779e08:Enum","@Value":"Hidden"},"SupportOnlineChange":"(bool)False","DeviceScanSupported":"(bool)False","DeviceNominateSupported":"(bool)False","DeviceIdentifySupported":"(bool)False","DeviceUploadDescriptionSupported":"(bool)False","UpdateIOsInStop":"(bool)False","StopResetBehaviourSetting":{"@Type":"f333ad6d:Enum","@Value":"KeepCurrentValues"},"StopResetBehaviourUserProgram":"(string)","BusCycleTaskGuid":"(Guid)00000000-0000-0000-0000-000000000000","PlcAlwaysMapping":"(bool)False","PlCAlwaysMappingMode":{"@Type":"9d1b24fb:Enum","@Value":"OnlyIfUnused"}}},"CustomItems":{"@Type":"7d23305a:IList","@Value":[]},"ModuleId":"(int)-1","IoUpdateTask":null,"AdditionalInterfaces":{"@Type":"ArrayList:IList","@Value":[]},"Constraints":{"@Type":"ArrayList:IList","@Value":[]},"hideInStatusPage":"(bool)False","updateAllowed":"(bool)True","fixedInputAddress":"(string)","fixedOutputAddress":"(string)","DownloadParamsDevDescOrder":"(bool)False","AllowOnlyDevices":{"@Type":"ArrayList:IList","@Value":[]},"InitialStatusFlag":"(uint)1","UseBlobInitConst":"(bool)False","AlwaysMappingMode":{"@Type":"9d1b24fb:Enum","@Value":"OnlyIfUnused"},"ConnectorGroup":"(uint)0","AllowedPages":{"@Type":"[string]","@Value":[]},"AlwaysMapping":"(bool)False","Client":"(string)","MaxInputSize":"(uint)0","MaxOutputSize":"(uint)0","MaxInOutputSize":"(uint)0","ClientTypeGuid":"(Guid)00000000-0000-0000-0000-000000000000","ClientConnectorInterface":"(string)","ClientConnectorId":"(int)-1","AlwaysMappingDisabled":"(bool)False"}}]}}},"Attributes":{"@Type":"1fdbedd8","@Value":{"Attributes":{"@Type":"Hashtable:IDictionary","@Value":{}}}},"CommunicationSettings":{"@Type":"58f2b04d","@Value":{"SaveLocally":"(bool)False","CommunicationSettingFilter":"(int)1","CommunicationSettingSorting":"(int)0","TrackingMode":"(int)5","GatewayGuid":"(Guid)00000000-0000-0000-0000-000000000000","Address":null,"PromptAtLogin":"(bool)False","SimulationMode":"(bool)False","SecureOnlineMode":"(bool)False","SecureOnlineModeExplicitelySet":"(bool)False","Name":"(string)","MonitoringIntervalMsec":"(int)200","ScanInformation":null,"IsCommunicationEncrypted":"(bool)False","IsDefaultNameTrackingFromScanActive":"(bool)False"}},"IoProviderBase":{"@Type":"848f25ec","@Value":{"UserBaseAddress":{"@Type":"[string]","@Value":[null,null,null]}}},"GuidBusCycleTask":"(Guid)00000000-0000-0000-0000-000000000000","DriverInfo":{"@Type":"4f958885","@Value":{"RequiredLibs":{"@Type":"ArrayList:IList","@Value":[]},"RequiredTasks":null,"NeedsBusCycle":"(bool)False","BusCycleTask":"(string)","IoApp":"(Guid)00000000-0000-0000-0000-000000000000","IoAppSet":"(bool)False","PositionIds":{"@Type":"[long]","@Value":"ARAAAAAAAAACEAAAAAAAAAMQAAAAAAAA"},"UseSlowestTask":"(bool)False","NeedsBusCycleBeforeRead":"(bool)False","GenerateForceVariables":"(bool)False","EnableDiagnosis":"(bool)False","AdditionalParameterSetting":"(uint)0","ShowWarningsAsErrors":"(bool)False","DiagnosisCheckboxMode":{"@Type":"96a7290c:Enum","@Value":"Enabled"},"SkipOverlapCheck":"(bool)False","SymbolicAccessMode":{"@Type":"866ccdec:Enum","@Value":"Disabled"},"OnlineChangeDevice":{"@Type":"e1779e08:Enum","@Value":"Hidden"},"SupportOnlineChange":"(bool)False","DeviceScanSupported":"(bool)False","DeviceNominateSupported":"(bool)False","DeviceIdentifySupported":"(bool)False","DeviceUploadDescriptionSupported":"(bool)False","UpdateIOsInStop":"(bool)False","StopResetBehaviourSetting":{"@Type":"f333ad6d:Enum","@Value":"KeepCurrentValues"},"StopResetBehaviourUserProgram":"(string)","BusCycleTaskGuid":"(Guid)00000000-0000-0000-0000-000000000000","PlcAlwaysMapping":"(bool)False","PlCAlwaysMappingMode":{"@Type":"9d1b24fb:Enum","@Value":"OnlyIfUnused"}}},"CustomItems":{"@Type":"7d23305a:IList","@Value":[]},"IoConfigGlobalsGuid":"(Guid)e352362e-626b-52fe-b4c8-88e0e0e72b07","IoConfigGlobalsMappingGuid":"(Guid)c2a47813-9836-599e-b7d6-ac670df42eda","IoConfigVarConfigGuid":"(Guid)fa107cf6-ee50-58dd-82d6-23aedb98a324","IoConfigErrorPouGuid":"(Guid)885d79af-6bfb-5124-9592-b791988216d3","ModuleId":"(int)-1","IoUpdateTask":null,"FunctionalChildren":{"@Type":"[Guid]","@Value":[]},"UserManagement":null,"RightsManagement":null,"showParamsInDevDescOrder":"(bool)False","fixedInputAddress":"(string)","fixedOutputAddress":"(string)","HostObjectGuid":"(Guid)f468ae45-1d0a-4ac6-aa03-300c269cc48e","DownloadParamsDevDescOrder":"(bool)False","CreateBitChannels":"(bool)False","AdditionalStringTable":null,"OnlineHelpUrl":null,"InteractiveLoginMode":"(int)-1","UseDeviceApplicationStructure":"(bool)False","AllowSymbolicVarAccessInSyncWithIecCycle":"(bool)False","LogicalDeviceList":{"@Type":"ec1f8a3a","@Value":{"InnerList":{"@Type":"ArrayList:IList","@Value":[]}}},"LogicalLanguageModelPositionId":"(long)-1","SupportedLogicalBusSystems":{"@Type":"ArrayList:IList","@Value":[]},"MappingPossible":"(bool)False","HidePropertiesDialog":"(bool)False","PlaceholderResolution":null,"RedirectedPlaceholderResolution":null}},"TypeInfos":{"05ee0b98":"{05ee0b98-6639-4276-bc32-b75578b819ef}","08a69302":"{08a69302-82ff-4bf9-a55d-a6014ee63990}","1a6d9caa":"{1a6d9caa-30e2-4c6c-aa84-7bcee3627153}","1da2f14a":"{1da2f14a-1c63-4268-9171-3b6869b8ccd6}","1fdbedd8":"{1fdbedd8-b518-4ebd-99df-805f2f77c071}","225bfe47":"{225bfe47-7336-4dbc-9419-4105a7c831fa}","35cf7b1a":"{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}","3f828f0b":"{3f828f0b-c67b-430a-8c93-1e9bc324df64}","47edf8ea":"{47edf8ea-3f84-452c-b998-e18f878578d3}","4da2c5bd":"{4da2c5bd-5291-436b-b8b0-6a4480112db7}","4f958885":"{4f958885-8d0a-4b58-83b6-29cfd1c9cfca}","52a6325f":"{52a6325f-063a-4748-86b6-ec8aa02d3232}","55948f0f":"{55948f0f-941b-4544-a1c2-3169f7256355}","58f2b04d":"{58f2b04d-505d-4589-9fcf-0ec83491f9b2}","59a90934":"{59a90934-c888-40db-a9df-306fcf36d75c}","6827a808":"{6827a808-5967-49c4-a827-10f6c446e075}","6d49a564":"{6d49a564-d0d1-4914-86ee-4465387ab144}","7d23305a":"{7d23305a-7bb9-46e6-b58b-01ea5694add1}","848f25ec":"{848f25ec-eecf-4290-8329-7f6500fd2e0f}","850f737d":"{850f737d-2abf-45f4-89c1-63ed6b29593d}","866ccdec":"{866ccdec-84a7-4590-aeab-383c7bd79437}","8c994079":"{8c994079-f3c6-4484-9643-9258628feecd}","94d8f601":"{94d8f601-f8e4-4aaa-8f48-f3c3ec33bec1}","96a7290c":"{96a7290c-b036-44e1-a965-c279cddf134b}","9d1b24fb":"{9d1b24fb-5845-4978-8458-564ca7830fec}","abc12bfe":"{abc12bfe-e34e-4b2c-a058-42c6e7e03a13}","ArrayList":"System.Collections.ArrayList","bool":"System.Boolean","e1779e08":"{e1779e08-585f-4d22-83e1-f36476fd1df5}","ec1f8a3a":"{ec1f8a3a-98c6-404c-883e-ce9e54b42542}","f333ad6d":"{f333ad6d-dc68-4baa-a3a3-20be74eb2e18}","f7a1fdea":"{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}","Guid":"System.Guid","Hashtable":"System.Collections.Hashtable","int":"System.Int32","long":"System.Int64","string":"System.String","uint":"System.UInt32","ushort":"System.UInt16"}}},"FormatVersion":"1.0"}
+{
+  "payload": {
+    "meta": {
+      "Graph": {
+        "@Type": "81297157",
+        "@Value": {
+          "Guid": "(Guid)c1881dc6-f0df-4b04-9225-0cbe5eefebc7",
+          "ParentGuid": "(Guid)56128669-982b-45e8-968b-c03cbaa64851",
+          "Name": "(string)J1939_Manager_0",
+          "Properties": {
+            "@Type": "2c41fa04:IDictionary",
+            "@Value": [
+              {
+                "@Key": "(Guid)cdadfc2b-8598-4621-ad56-5b1df7db910f",
+                "@Value": {
+                  "@Type": "cdadfc2b",
+                  "@Value": {
+                    "DeviceIdentification": {
+                      "@Type": "05ee0b98",
+                      "@Value": {
+                        "Type": "(int)24",
+                        "Id": "(string)0000 0001",
+                        "Version": "(string)4.2.0.0",
+                        "BaseName": null
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "TypeGuid": "(Guid)225bfe47-7336-4dbc-9419-4105a7c831fa",
+          "EmbeddedTypeGuids": null
+        }
+      },
+      "TypeInfos": {
+        "05ee0b98": "{05ee0b98-6639-4276-bc32-b75578b819ef}",
+        "2c41fa04": "{2c41fa04-1834-41c1-816e-303c7aa2c05b}",
+        "81297157": "{81297157-7ec9-45ce-845e-84cab2b88ade}",
+        "cdadfc2b": "{cdadfc2b-8598-4621-ad56-5b1df7db910f}",
+        "Guid": "System.Guid",
+        "int": "System.Int32",
+        "string": "System.String"
+      }
+    },
+    "object": {
+      "Graph": {
+        "@Type": "225bfe47",
+        "@Value": {
+          "UniqueIdGenerator": "(string)4118",
+          "TypeList": null,
+          "NeedsBusCycle": "(bool)False",
+          "Id": {
+            "@Type": "05ee0b98",
+            "@Value": {
+              "Type": "(int)24",
+              "Id": "(string)0000 0001",
+              "Version": "(string)4.2.0.0",
+              "BaseName": null
+            }
+          },
+          "DefaultDeviceInfo": {
+            "@Type": "59a90934",
+            "@Value": {
+              "Name": "(string)J1939_Manager",
+              "Description": "(string)J1939 Manager",
+              "Vendor": "(string)CODESYS",
+              "OrderNumber": "(string)",
+              "Categories": {
+                "@Type": "[int]",
+                "@Value": "GAAAAA=="
+              },
+              "Families": {
+                "@Type": "[string]",
+                "@Value": []
+              },
+              "Custom": "(string)",
+              "DefaultInstanceName": null
+            }
+          },
+          "DeviceParameterSet": {
+            "@Type": "abc12bfe",
+            "@Value": {
+              "Params": {
+                "@Type": "[]",
+                "@Value": []
+              },
+              "LmGuid": "(Guid)30e24e46-241c-5cc7-a754-d2aacc088e7d",
+              "Sections": null,
+              "AlwaysMapping": "(bool)False",
+              "EditorName": null,
+              "AlwaysMappingMode": {
+                "@Type": "9d1b24fb:Enum",
+                "@Value": "OnlyIfUnused"
+              },
+              "CreateBitChannels": "(bool)False"
+            }
+          },
+          "Disable": "(bool)False",
+          "Exclude": "(bool)False",
+          "Connectors": {
+            "@Type": "ArrayList:IList",
+            "@Value": []
+          },
+          "ConnectorList": {
+            "@Type": "52a6325f",
+            "@Value": {
+              "InnerList": {
+                "@Type": "ArrayList:IList",
+                "@Value": [
+                  {
+                    "@Type": "850f737d",
+                    "@Value": {
+                      "VisibleInterfaceName": {
+                        "@Type": "35cf7b1a",
+                        "@Value": {
+                          "Default": "(string)Common.CANbus"
+                        }
+                      },
+                      "ConnectorObjectGuid": "(Guid)00000000-0000-0000-0000-000000000000",
+                      "IsExplicit": "(bool)False",
+                      "ModuleType": "(ushort)257",
+                      "Interface": "(string)Common.CANbus",
+                      "Role": {
+                        "@Type": "6827a808:Enum",
+                        "@Value": "Child"
+                      },
+                      "ConnectorId": "(int)0",
+                      "Hostpath": "(int)-1",
+                      "Adapters": {
+                        "@Type": "1da2f14a",
+                        "@Value": {
+                          "Adapters": {
+                            "@Type": "ArrayList:IList",
+                            "@Value": [
+                              {
+                                "@Type": "6d49a564",
+                                "@Value": {
+                                  "AllowEmptySlot": "(bool)False",
+                                  "DefaultModules": null,
+                                  "Modules": {
+                                    "@Type": "[Guid]",
+                                    "@Value": [
+                                      "(Guid)56128669-982b-45e8-968b-c03cbaa64851"
+                                    ]
+                                  },
+                                  "IncludeSlotNumber": "(bool)False",
+                                  "StartSlotNumber": "(uint)0",
+                                  "SlotNames": null,
+                                  "HiddenSlot": "(bool)False"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "HostParameterSet": {
+                        "@Type": "abc12bfe",
+                        "@Value": {
+                          "Params": {
+                            "@Type": "[]",
+                            "@Value": []
+                          },
+                          "LmGuid": "(Guid)4c0f0c50-cca2-5c10-88e4-98652ea3b88a",
+                          "Sections": null,
+                          "AlwaysMapping": "(bool)False",
+                          "EditorName": null,
+                          "AlwaysMappingMode": {
+                            "@Type": "9d1b24fb:Enum",
+                            "@Value": "OnlyIfUnused"
+                          },
+                          "CreateBitChannels": "(bool)False"
+                        }
+                      },
+                      "BusCycleTaskGuid": "(Guid)00000000-0000-0000-0000-000000000000",
+                      "DriverInfo": {
+                        "@Type": "4f958885",
+                        "@Value": {
+                          "RequiredLibs": {
+                            "@Type": "ArrayList:IList",
+                            "@Value": []
+                          },
+                          "RequiredTasks": null,
+                          "NeedsBusCycle": "(bool)False",
+                          "BusCycleTask": "(string)",
+                          "IoApp": "(Guid)00000000-0000-0000-0000-000000000000",
+                          "IoAppSet": "(bool)False",
+                          "PositionIds": {
+                            "@Type": "[long]",
+                            "@Value": "BBAAAAAAAAAFEAAAAAAAAAYQAAAAAAAA"
+                          },
+                          "UseSlowestTask": "(bool)False",
+                          "NeedsBusCycleBeforeRead": "(bool)False",
+                          "GenerateForceVariables": "(bool)False",
+                          "EnableDiagnosis": "(bool)False",
+                          "AdditionalParameterSetting": "(uint)0",
+                          "ShowWarningsAsErrors": "(bool)False",
+                          "DiagnosisCheckboxMode": {
+                            "@Type": "96a7290c:Enum",
+                            "@Value": "Enabled"
+                          },
+                          "SkipOverlapCheck": "(bool)False",
+                          "SymbolicAccessMode": {
+                            "@Type": "866ccdec:Enum",
+                            "@Value": "Disabled"
+                          },
+                          "OnlineChangeDevice": {
+                            "@Type": "e1779e08:Enum",
+                            "@Value": "Hidden"
+                          },
+                          "SupportOnlineChange": "(bool)False",
+                          "DeviceScanSupported": "(bool)False",
+                          "DeviceNominateSupported": "(bool)False",
+                          "DeviceIdentifySupported": "(bool)False",
+                          "DeviceUploadDescriptionSupported": "(bool)False",
+                          "UpdateIOsInStop": "(bool)False",
+                          "StopResetBehaviourSetting": {
+                            "@Type": "f333ad6d:Enum",
+                            "@Value": "KeepCurrentValues"
+                          },
+                          "StopResetBehaviourUserProgram": "(string)",
+                          "BusCycleTaskGuid": "(Guid)00000000-0000-0000-0000-000000000000",
+                          "PlcAlwaysMapping": "(bool)False",
+                          "PlCAlwaysMappingMode": {
+                            "@Type": "9d1b24fb:Enum",
+                            "@Value": "OnlyIfUnused"
+                          }
+                        }
+                      },
+                      "CustomItems": {
+                        "@Type": "7d23305a:IList",
+                        "@Value": []
+                      },
+                      "ModuleId": "(int)-1",
+                      "IoUpdateTask": null,
+                      "AdditionalInterfaces": {
+                        "@Type": "ArrayList:IList",
+                        "@Value": []
+                      },
+                      "Constraints": {
+                        "@Type": "ArrayList:IList",
+                        "@Value": []
+                      },
+                      "hideInStatusPage": "(bool)True",
+                      "updateAllowed": "(bool)True",
+                      "fixedInputAddress": "(string)",
+                      "fixedOutputAddress": "(string)",
+                      "DownloadParamsDevDescOrder": "(bool)False",
+                      "AllowOnlyDevices": {
+                        "@Type": "ArrayList:IList",
+                        "@Value": []
+                      },
+                      "InitialStatusFlag": "(uint)1",
+                      "UseBlobInitConst": "(bool)False",
+                      "AlwaysMappingMode": {
+                        "@Type": "9d1b24fb:Enum",
+                        "@Value": "OnlyIfUnused"
+                      },
+                      "ConnectorGroup": "(uint)0",
+                      "AllowedPages": {
+                        "@Type": "[string]",
+                        "@Value": []
+                      },
+                      "AlwaysMapping": "(bool)False",
+                      "Client": "(string)",
+                      "MaxInputSize": "(uint)0",
+                      "MaxOutputSize": "(uint)0",
+                      "MaxInOutputSize": "(uint)0",
+                      "ClientTypeGuid": "(Guid)00000000-0000-0000-0000-000000000000",
+                      "ClientConnectorInterface": "(string)",
+                      "ClientConnectorId": "(int)-1",
+                      "AlwaysMappingDisabled": "(bool)False"
+                    }
+                  },
+                  {
+                    "@Type": "850f737d",
+                    "@Value": {
+                      "VisibleInterfaceName": {
+                        "@Type": "35cf7b1a",
+                        "@Value": {
+                          "Namespace": "(string)local",
+                          "Identifier": "(string)NONE",
+                          "Default": "(string)J1939"
+                        }
+                      },
+                      "ConnectorObjectGuid": "(Guid)00000000-0000-0000-0000-000000000000",
+                      "IsExplicit": "(bool)False",
+                      "ModuleType": "(ushort)24",
+                      "Interface": "(string)Common.J1939",
+                      "Role": {
+                        "@Type": "6827a808:Enum",
+                        "@Value": "Parent"
+                      },
+                      "ConnectorId": "(int)1",
+                      "Hostpath": "(int)0",
+                      "Adapters": {
+                        "@Type": "1da2f14a",
+                        "@Value": {
+                          "Adapters": {
+                            "@Type": "ArrayList:IList",
+                            "@Value": [
+                              {
+                                "@Type": "3f828f0b",
+                                "@Value": {
+                                  "Modules": {
+                                    "@Type": "ArrayList:IList",
+                                    "@Value": []
+                                  },
+                                  "MaxDevices": "(int)2147483647",
+                                  "SupportPlaceholderObjects": "(bool)False"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "HostParameterSet": {
+                        "@Type": "abc12bfe",
+                        "@Value": {
+                          "Params": {
+                            "@Type": "[]",
+                            "@Value": [
+                              {
+                                "@Type": "8c994079",
+                                "@Value": {
+                                  "Id": "(uint)0",
+                                  "OnlineAccess": {
+                                    "@Type": "f7a1fdea:Enum",
+                                    "@Value": "Read"
+                                  },
+                                  "Download": "(bool)False",
+                                  "DalaElement": {
+                                    "@Type": "08a69302",
+                                    "@Value": {
+                                      "FilterFlags": null,
+                                      "OnlineAccess": {
+                                        "@Type": "f7a1fdea:Enum",
+                                        "@Value": "Read"
+                                      },
+                                      "PositionId": "(long)4107",
+                                      "EditorPositionId": "(long)4108",
+                                      "VisibleName": {
+                                        "@Type": "35cf7b1a",
+                                        "@Value": {
+                                          "Namespace": "(string)localStrings",
+                                          "Identifier": "(string)J1939Database",
+                                          "Default": "(string)J1939Database"
+                                        }
+                                      },
+                                      "Identifier": "(string)0",
+                                      "Type": "(string)STRING"
+                                    }
+                                  },
+                                  "ParamType": "(string)std:STRING",
+                                  "IndexInDevDesc": "(long)0"
+                                }
+                              },
+                              {
+                                "@Type": "8c994079",
+                                "@Value": {
+                                  "Id": "(uint)1",
+                                  "OfflineAccess": {
+                                    "@Type": "f7a1fdea:Enum",
+                                    "@Value": "None"
+                                  },
+                                  "OnlineAccess": {
+                                    "@Type": "f7a1fdea:Enum",
+                                    "@Value": "None"
+                                  },
+                                  "DalaElement": {
+                                    "@Type": "08a69302",
+                                    "@Value": {
+                                      "FilterFlags": null,
+                                      "OfflineAccess": {
+                                        "@Type": "f7a1fdea:Enum",
+                                        "@Value": "None"
+                                      },
+                                      "OnlineAccess": {
+                                        "@Type": "f7a1fdea:Enum",
+                                        "@Value": "None"
+                                      },
+                                      "PositionId": "(long)4109",
+                                      "EditorPositionId": "(long)4110",
+                                      "VisibleName": {
+                                        "@Type": "35cf7b1a",
+                                        "@Value": {
+                                          "Namespace": "(string)localStrings",
+                                          "Identifier": "(string)InstancePointer",
+                                          "Default": "(string)Instance Pointer"
+                                        }
+                                      },
+                                      "Identifier": "(string)1",
+                                      "Value": "(string)0",
+                                      "Type": "(string)__XWORD",
+                                      "Default": "(string)0"
+                                    }
+                                  },
+                                  "ParamType": "(string)std:__XWORD",
+                                  "IndexInDevDesc": "(long)1"
+                                }
+                              },
+                              {
+                                "@Type": "8c994079",
+                                "@Value": {
+                                  "Id": "(uint)8",
+                                  "OfflineAccess": {
+                                    "@Type": "f7a1fdea:Enum",
+                                    "@Value": "None"
+                                  },
+                                  "OnlineAccess": {
+                                    "@Type": "f7a1fdea:Enum",
+                                    "@Value": "None"
+                                  },
+                                  "DiagType": {
+                                    "@Type": "55948f0f:Enum",
+                                    "@Value": "Acknowledge"
+                                  },
+                                  "DalaElement": {
+                                    "@Type": "08a69302",
+                                    "@Value": {
+                                      "FilterFlags": null,
+                                      "OfflineAccess": {
+                                        "@Type": "f7a1fdea:Enum",
+                                        "@Value": "None"
+                                      },
+                                      "OnlineAccess": {
+                                        "@Type": "f7a1fdea:Enum",
+                                        "@Value": "None"
+                                      },
+                                      "PositionId": "(long)4111",
+                                      "EditorPositionId": "(long)4112",
+                                      "Description": {
+                                        "@Type": "35cf7b1a",
+                                        "@Value": {
+                                          "Namespace": "(string)localStrings",
+                                          "Identifier": "(string)DiagAck",
+                                          "Default": "(string)Diag Acknowledge"
+                                        }
+                                      },
+                                      "VisibleName": {
+                                        "@Type": "35cf7b1a",
+                                        "@Value": {
+                                          "Namespace": "(string)localStrings",
+                                          "Identifier": "(string)DiagAck",
+                                          "Default": "(string)Diag Acknowledge"
+                                        }
+                                      },
+                                      "Identifier": "(string)8",
+                                      "Value": "(string)FALSE",
+                                      "Type": "(string)BOOL",
+                                      "Default": "(string)FALSE"
+                                    }
+                                  },
+                                  "ParamType": "(string)std:BOOL",
+                                  "IndexInDevDesc": "(long)2"
+                                }
+                              },
+                              {
+                                "@Type": "8c994079",
+                                "@Value": {
+                                  "Id": "(uint)9",
+                                  "OfflineAccess": {
+                                    "@Type": "f7a1fdea:Enum",
+                                    "@Value": "None"
+                                  },
+                                  "OnlineAccess": {
+                                    "@Type": "f7a1fdea:Enum",
+                                    "@Value": "None"
+                                  },
+                                  "Download": "(bool)False",
+                                  "DalaElement": {
+                                    "@Type": "08a69302",
+                                    "@Value": {
+                                      "FilterFlags": null,
+                                      "OfflineAccess": {
+                                        "@Type": "f7a1fdea:Enum",
+                                        "@Value": "None"
+                                      },
+                                      "OnlineAccess": {
+                                        "@Type": "f7a1fdea:Enum",
+                                        "@Value": "None"
+                                      },
+                                      "PositionId": "(long)4113",
+                                      "EditorPositionId": "(long)4114",
+                                      "VisibleName": {
+                                        "@Type": "35cf7b1a",
+                                        "@Value": {
+                                          "Namespace": "(string)localStrings",
+                                          "Identifier": "(string)ShowLoggerPage",
+                                          "Default": "(string)Show Logger Page"
+                                        }
+                                      },
+                                      "Identifier": "(string)9",
+                                      "Value": "(string)TRUE",
+                                      "Type": "(string)BOOL",
+                                      "Default": "(string)TRUE"
+                                    }
+                                  },
+                                  "ParamType": "(string)std:BOOL",
+                                  "IndexInDevDesc": "(long)3"
+                                }
+                              },
+                              {
+                                "@Type": "8c994079",
+                                "@Value": {
+                                  "Id": "(uint)254",
+                                  "OnlineAccess": {
+                                    "@Type": "f7a1fdea:Enum",
+                                    "@Value": "Read"
+                                  },
+                                  "DalaElement": {
+                                    "@Type": "08a69302",
+                                    "@Value": {
+                                      "FilterFlags": null,
+                                      "OnlineAccess": {
+                                        "@Type": "f7a1fdea:Enum",
+                                        "@Value": "Read"
+                                      },
+                                      "PositionId": "(long)4115",
+                                      "EditorPositionId": "(long)4116",
+                                      "VisibleName": {
+                                        "@Type": "35cf7b1a",
+                                        "@Value": {
+                                          "Namespace": "(string)localStrings",
+                                          "Identifier": "(string)TxMsgPoolSize",
+                                          "Default": "(string)Number of Tx Messages"
+                                        }
+                                      },
+                                      "Identifier": "(string)254",
+                                      "Value": "(string)256",
+                                      "Type": "(string)WORD",
+                                      "Default": "(string)256"
+                                    }
+                                  },
+                                  "ParamType": "(string)std:WORD",
+                                  "IndexInDevDesc": "(long)4"
+                                }
+                              },
+                              {
+                                "@Type": "8c994079",
+                                "@Value": {
+                                  "Id": "(uint)1879052288",
+                                  "OfflineAccess": {
+                                    "@Type": "f7a1fdea:Enum",
+                                    "@Value": "Read"
+                                  },
+                                  "OnlineAccess": {
+                                    "@Type": "f7a1fdea:Enum",
+                                    "@Value": "Read"
+                                  },
+                                  "DalaElement": {
+                                    "@Type": "08a69302",
+                                    "@Value": {
+                                      "FilterFlags": null,
+                                      "OfflineAccess": {
+                                        "@Type": "f7a1fdea:Enum",
+                                        "@Value": "Read"
+                                      },
+                                      "OnlineAccess": {
+                                        "@Type": "f7a1fdea:Enum",
+                                        "@Value": "Read"
+                                      },
+                                      "PositionId": "(long)4117",
+                                      "EditorPositionId": "(long)4118",
+                                      "VisibleName": {
+                                        "@Type": "35cf7b1a",
+                                        "@Value": {
+                                          "Namespace": "(string)localStrings",
+                                          "Identifier": "(string)ConfigVersion",
+                                          "Default": "(string)Config Version"
+                                        }
+                                      },
+                                      "Identifier": "(string)1879052288",
+                                      "Value": "(string)50663178",
+                                      "Type": "(string)DWORD",
+                                      "Default": "(string)50663178"
+                                    }
+                                  },
+                                  "ParamType": "(string)std:DWORD",
+                                  "IndexInDevDesc": "(long)5"
+                                }
+                              }
+                            ]
+                          },
+                          "LmGuid": "(Guid)7a20f926-3f6f-5c08-857f-f37b77ae9aa3",
+                          "Sections": null,
+                          "AlwaysMapping": "(bool)False",
+                          "EditorName": null,
+                          "AlwaysMappingMode": {
+                            "@Type": "9d1b24fb:Enum",
+                            "@Value": "OnlyIfUnused"
+                          },
+                          "CreateBitChannels": "(bool)False"
+                        }
+                      },
+                      "BusCycleTaskGuid": "(Guid)00000000-0000-0000-0000-000000000000",
+                      "DriverInfo": {
+                        "@Type": "4f958885",
+                        "@Value": {
+                          "RequiredLibs": {
+                            "@Type": "ArrayList:IList",
+                            "@Value": [
+                              {
+                                "@Type": "94d8f601",
+                                "@Value": {
+                                  "LibName": "(string)IoDrvJ1939",
+                                  "Vendor": "(string)CODESYS",
+                                  "Version": "(string)*",
+                                  "Identifier": "(string)IoDrvJ1939",
+                                  "FbInstances": {
+                                    "@Type": "ArrayList:IList",
+                                    "@Value": [
+                                      {
+                                        "@Type": "1a6d9caa",
+                                        "@Value": {
+                                          "FbName": "(string)IoDrvJ1939",
+                                          "BaseName": "(string)$(DeviceName)",
+                                          "Instance": {
+                                            "@Type": "47edf8ea",
+                                            "@Value": {
+                                              "CreateVariable": "(bool)True",
+                                              "Variable": "(string)J1939_Manager_0"
+                                            }
+                                          },
+                                          "InitMethod": "(string)Initialize",
+                                          "CyclicCalls": {
+                                            "@Type": "ArrayList:IList",
+                                            "@Value": []
+                                          },
+                                          "Location": {
+                                            "@Type": "4da2c5bd:Enum",
+                                            "@Value": "GVL"
+                                          },
+                                          "FbNameDiag": "(string)IoDrvJ1939Diag",
+                                          "PositionId": "(long)4106"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "PlaceHolderLib": "(string)IoDrvJ1939",
+                                  "loadAsSystemLibrary": "(bool)True",
+                                  "IsDiagnosisLib": "(bool)False",
+                                  "AddedByAP": "(bool)False",
+                                  "Client": "(string)"
+                                }
+                              }
+                            ]
+                          },
+                          "RequiredTasks": null,
+                          "NeedsBusCycle": "(bool)True",
+                          "BusCycleTask": "(string)",
+                          "IoApp": "(Guid)00000000-0000-0000-0000-000000000000",
+                          "IoAppSet": "(bool)False",
+                          "PositionIds": {
+                            "@Type": "[long]",
+                            "@Value": "BxAAAAAAAAAIEAAAAAAAAAkQAAAAAAAA"
+                          },
+                          "UseSlowestTask": "(bool)False",
+                          "NeedsBusCycleBeforeRead": "(bool)True",
+                          "GenerateForceVariables": "(bool)False",
+                          "EnableDiagnosis": "(bool)False",
+                          "AdditionalParameterSetting": "(uint)0",
+                          "ShowWarningsAsErrors": "(bool)False",
+                          "DiagnosisCheckboxMode": {
+                            "@Type": "96a7290c:Enum",
+                            "@Value": "Enabled"
+                          },
+                          "SkipOverlapCheck": "(bool)False",
+                          "SymbolicAccessMode": {
+                            "@Type": "866ccdec:Enum",
+                            "@Value": "Disabled"
+                          },
+                          "OnlineChangeDevice": {
+                            "@Type": "e1779e08:Enum",
+                            "@Value": "Hidden"
+                          },
+                          "SupportOnlineChange": "(bool)False",
+                          "DeviceScanSupported": "(bool)False",
+                          "DeviceNominateSupported": "(bool)False",
+                          "DeviceIdentifySupported": "(bool)False",
+                          "DeviceUploadDescriptionSupported": "(bool)False",
+                          "UpdateIOsInStop": "(bool)False",
+                          "StopResetBehaviourSetting": {
+                            "@Type": "f333ad6d:Enum",
+                            "@Value": "KeepCurrentValues"
+                          },
+                          "StopResetBehaviourUserProgram": "(string)",
+                          "BusCycleTaskGuid": "(Guid)00000000-0000-0000-0000-000000000000",
+                          "PlcAlwaysMapping": "(bool)False",
+                          "PlCAlwaysMappingMode": {
+                            "@Type": "9d1b24fb:Enum",
+                            "@Value": "OnlyIfUnused"
+                          }
+                        }
+                      },
+                      "CustomItems": {
+                        "@Type": "7d23305a:IList",
+                        "@Value": []
+                      },
+                      "ModuleId": "(int)-1",
+                      "IoUpdateTask": null,
+                      "AdditionalInterfaces": {
+                        "@Type": "ArrayList:IList",
+                        "@Value": []
+                      },
+                      "Constraints": {
+                        "@Type": "ArrayList:IList",
+                        "@Value": []
+                      },
+                      "hideInStatusPage": "(bool)False",
+                      "updateAllowed": "(bool)True",
+                      "fixedInputAddress": "(string)",
+                      "fixedOutputAddress": "(string)",
+                      "DownloadParamsDevDescOrder": "(bool)False",
+                      "AllowOnlyDevices": {
+                        "@Type": "ArrayList:IList",
+                        "@Value": []
+                      },
+                      "InitialStatusFlag": "(uint)1",
+                      "UseBlobInitConst": "(bool)False",
+                      "AlwaysMappingMode": {
+                        "@Type": "9d1b24fb:Enum",
+                        "@Value": "OnlyIfUnused"
+                      },
+                      "ConnectorGroup": "(uint)0",
+                      "AllowedPages": {
+                        "@Type": "[string]",
+                        "@Value": []
+                      },
+                      "AlwaysMapping": "(bool)False",
+                      "Client": "(string)",
+                      "MaxInputSize": "(uint)0",
+                      "MaxOutputSize": "(uint)0",
+                      "MaxInOutputSize": "(uint)0",
+                      "ClientTypeGuid": "(Guid)00000000-0000-0000-0000-000000000000",
+                      "ClientConnectorInterface": "(string)",
+                      "ClientConnectorId": "(int)-1",
+                      "AlwaysMappingDisabled": "(bool)False"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "Attributes": {
+            "@Type": "1fdbedd8",
+            "@Value": {
+              "Attributes": {
+                "@Type": "Hashtable:IDictionary",
+                "@Value": {}
+              }
+            }
+          },
+          "CommunicationSettings": {
+            "@Type": "58f2b04d",
+            "@Value": {
+              "SaveLocally": "(bool)False",
+              "CommunicationSettingFilter": "(int)1",
+              "CommunicationSettingSorting": "(int)0",
+              "TrackingMode": "(int)5",
+              "GatewayGuid": "(Guid)00000000-0000-0000-0000-000000000000",
+              "Address": null,
+              "PromptAtLogin": "(bool)False",
+              "SimulationMode": "(bool)False",
+              "SecureOnlineMode": "(bool)False",
+              "SecureOnlineModeExplicitelySet": "(bool)False",
+              "Name": "(string)",
+              "MonitoringIntervalMsec": "(int)200",
+              "ScanInformation": null,
+              "IsCommunicationEncrypted": "(bool)False",
+              "IsDefaultNameTrackingFromScanActive": "(bool)False"
+            }
+          },
+          "IoProviderBase": {
+            "@Type": "848f25ec",
+            "@Value": {
+              "UserBaseAddress": {
+                "@Type": "[string]",
+                "@Value": [
+                  null,
+                  null,
+                  null
+                ]
+              }
+            }
+          },
+          "GuidBusCycleTask": "(Guid)00000000-0000-0000-0000-000000000000",
+          "DriverInfo": {
+            "@Type": "4f958885",
+            "@Value": {
+              "RequiredLibs": {
+                "@Type": "ArrayList:IList",
+                "@Value": []
+              },
+              "RequiredTasks": null,
+              "NeedsBusCycle": "(bool)False",
+              "BusCycleTask": "(string)",
+              "IoApp": "(Guid)00000000-0000-0000-0000-000000000000",
+              "IoAppSet": "(bool)False",
+              "PositionIds": {
+                "@Type": "[long]",
+                "@Value": "ARAAAAAAAAACEAAAAAAAAAMQAAAAAAAA"
+              },
+              "UseSlowestTask": "(bool)False",
+              "NeedsBusCycleBeforeRead": "(bool)False",
+              "GenerateForceVariables": "(bool)False",
+              "EnableDiagnosis": "(bool)False",
+              "AdditionalParameterSetting": "(uint)0",
+              "ShowWarningsAsErrors": "(bool)False",
+              "DiagnosisCheckboxMode": {
+                "@Type": "96a7290c:Enum",
+                "@Value": "Enabled"
+              },
+              "SkipOverlapCheck": "(bool)False",
+              "SymbolicAccessMode": {
+                "@Type": "866ccdec:Enum",
+                "@Value": "Disabled"
+              },
+              "OnlineChangeDevice": {
+                "@Type": "e1779e08:Enum",
+                "@Value": "Hidden"
+              },
+              "SupportOnlineChange": "(bool)False",
+              "DeviceScanSupported": "(bool)False",
+              "DeviceNominateSupported": "(bool)False",
+              "DeviceIdentifySupported": "(bool)False",
+              "DeviceUploadDescriptionSupported": "(bool)False",
+              "UpdateIOsInStop": "(bool)False",
+              "StopResetBehaviourSetting": {
+                "@Type": "f333ad6d:Enum",
+                "@Value": "KeepCurrentValues"
+              },
+              "StopResetBehaviourUserProgram": "(string)",
+              "BusCycleTaskGuid": "(Guid)00000000-0000-0000-0000-000000000000",
+              "PlcAlwaysMapping": "(bool)False",
+              "PlCAlwaysMappingMode": {
+                "@Type": "9d1b24fb:Enum",
+                "@Value": "OnlyIfUnused"
+              }
+            }
+          },
+          "CustomItems": {
+            "@Type": "7d23305a:IList",
+            "@Value": []
+          },
+          "IoConfigGlobalsGuid": "(Guid)e352362e-626b-52fe-b4c8-88e0e0e72b07",
+          "IoConfigGlobalsMappingGuid": "(Guid)c2a47813-9836-599e-b7d6-ac670df42eda",
+          "IoConfigVarConfigGuid": "(Guid)fa107cf6-ee50-58dd-82d6-23aedb98a324",
+          "IoConfigErrorPouGuid": "(Guid)885d79af-6bfb-5124-9592-b791988216d3",
+          "ModuleId": "(int)-1",
+          "IoUpdateTask": null,
+          "FunctionalChildren": {
+            "@Type": "[Guid]",
+            "@Value": []
+          },
+          "UserManagement": null,
+          "RightsManagement": null,
+          "showParamsInDevDescOrder": "(bool)False",
+          "fixedInputAddress": "(string)",
+          "fixedOutputAddress": "(string)",
+          "HostObjectGuid": "(Guid)f468ae45-1d0a-4ac6-aa03-300c269cc48e",
+          "DownloadParamsDevDescOrder": "(bool)False",
+          "CreateBitChannels": "(bool)False",
+          "AdditionalStringTable": null,
+          "OnlineHelpUrl": null,
+          "InteractiveLoginMode": "(int)-1",
+          "UseDeviceApplicationStructure": "(bool)False",
+          "AllowSymbolicVarAccessInSyncWithIecCycle": "(bool)False",
+          "LogicalDeviceList": {
+            "@Type": "ec1f8a3a",
+            "@Value": {
+              "InnerList": {
+                "@Type": "ArrayList:IList",
+                "@Value": []
+              }
+            }
+          },
+          "LogicalLanguageModelPositionId": "(long)-1",
+          "SupportedLogicalBusSystems": {
+            "@Type": "ArrayList:IList",
+            "@Value": []
+          },
+          "MappingPossible": "(bool)False",
+          "HidePropertiesDialog": "(bool)False",
+          "PlaceholderResolution": null,
+          "RedirectedPlaceholderResolution": null
+        }
+      },
+      "TypeInfos": {
+        "05ee0b98": "{05ee0b98-6639-4276-bc32-b75578b819ef}",
+        "08a69302": "{08a69302-82ff-4bf9-a55d-a6014ee63990}",
+        "1a6d9caa": "{1a6d9caa-30e2-4c6c-aa84-7bcee3627153}",
+        "1da2f14a": "{1da2f14a-1c63-4268-9171-3b6869b8ccd6}",
+        "1fdbedd8": "{1fdbedd8-b518-4ebd-99df-805f2f77c071}",
+        "225bfe47": "{225bfe47-7336-4dbc-9419-4105a7c831fa}",
+        "35cf7b1a": "{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}",
+        "3f828f0b": "{3f828f0b-c67b-430a-8c93-1e9bc324df64}",
+        "47edf8ea": "{47edf8ea-3f84-452c-b998-e18f878578d3}",
+        "4da2c5bd": "{4da2c5bd-5291-436b-b8b0-6a4480112db7}",
+        "4f958885": "{4f958885-8d0a-4b58-83b6-29cfd1c9cfca}",
+        "52a6325f": "{52a6325f-063a-4748-86b6-ec8aa02d3232}",
+        "55948f0f": "{55948f0f-941b-4544-a1c2-3169f7256355}",
+        "58f2b04d": "{58f2b04d-505d-4589-9fcf-0ec83491f9b2}",
+        "59a90934": "{59a90934-c888-40db-a9df-306fcf36d75c}",
+        "6827a808": "{6827a808-5967-49c4-a827-10f6c446e075}",
+        "6d49a564": "{6d49a564-d0d1-4914-86ee-4465387ab144}",
+        "7d23305a": "{7d23305a-7bb9-46e6-b58b-01ea5694add1}",
+        "848f25ec": "{848f25ec-eecf-4290-8329-7f6500fd2e0f}",
+        "850f737d": "{850f737d-2abf-45f4-89c1-63ed6b29593d}",
+        "866ccdec": "{866ccdec-84a7-4590-aeab-383c7bd79437}",
+        "8c994079": "{8c994079-f3c6-4484-9643-9258628feecd}",
+        "94d8f601": "{94d8f601-f8e4-4aaa-8f48-f3c3ec33bec1}",
+        "96a7290c": "{96a7290c-b036-44e1-a965-c279cddf134b}",
+        "9d1b24fb": "{9d1b24fb-5845-4978-8458-564ca7830fec}",
+        "abc12bfe": "{abc12bfe-e34e-4b2c-a058-42c6e7e03a13}",
+        "ArrayList": "System.Collections.ArrayList",
+        "bool": "System.Boolean",
+        "e1779e08": "{e1779e08-585f-4d22-83e1-f36476fd1df5}",
+        "ec1f8a3a": "{ec1f8a3a-98c6-404c-883e-ce9e54b42542}",
+        "f333ad6d": "{f333ad6d-dc68-4baa-a3a3-20be74eb2e18}",
+        "f7a1fdea": "{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}",
+        "Guid": "System.Guid",
+        "Hashtable": "System.Collections.Hashtable",
+        "int": "System.Int32",
+        "long": "System.Int64",
+        "string": "System.String",
+        "uint": "System.UInt32",
+        "ushort": "System.UInt16"
+      }
+    }
+  },
+  "FormatVersion": "1.0"
+}

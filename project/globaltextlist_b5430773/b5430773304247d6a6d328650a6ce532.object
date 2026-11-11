@@ -1,1 +1,89 @@
-﻿{"payload":{"meta":{"Graph":{"@Type":"81297157","@Value":{"Guid":"(Guid)b5430773-3042-47d6-a6d3-28650a6ce532","ParentGuid":"(Guid)00000000-0000-0000-0000-000000000000","Name":"(string)GlobalTextList","Properties":{"@Type":"2c41fa04:IDictionary","@Value":{}},"TypeGuid":"(Guid)63784cbb-9ba0-45e6-9d69-babf3f040511","EmbeddedTypeGuids":{"@Type":"[Guid]","@Value":[]}}},"TypeInfos":{"2c41fa04":"{2c41fa04-1834-41c1-816e-303c7aa2c05b}","81297157":"{81297157-7ec9-45ce-845e-84cab2b88ade}","Guid":"System.Guid","string":"System.String"}},"object":{"Graph":{"@Type":"63784cbb","@Value":{"TextList":{"@Type":"ArrayList:IList","@Value":[{"@Type":"53da1be7","@Value":{"TextID":"(string)514","TextDefault":"(string)Detent","LanguageTexts":{"@Type":"ArrayList:IList","@Value":[]}}},{"@Type":"53da1be7","@Value":{"TextID":"(string)226","TextDefault":"(string)X","LanguageTexts":{"@Type":"ArrayList:IList","@Value":[]}}},{"@Type":"53da1be7","@Value":{"TextID":"(string)961","TextDefault":"(string)Y","LanguageTexts":{"@Type":"ArrayList:IList","@Value":[]}}}]},"Languages":{"@Type":"ArrayList:IList","@Value":[]},"GuidInit":"(Guid)4eb23ded-9754-4e89-b365-877ba942e706","GuidReInit":"(Guid)33b6ec6f-de0c-4b15-8c0a-6249f8276b72","GuidExitX":"(Guid)74f8db1c-c210-4030-8230-13f4b9dcf78a"}},"TypeInfos":{"53da1be7":"{53da1be7-ad25-47c3-b0e8-e26286dad2e0}","63784cbb":"{63784cbb-9ba0-45e6-9d69-babf3f040511}","ArrayList":"System.Collections.ArrayList","Guid":"System.Guid","string":"System.String"}}},"FormatVersion":"1.0"}
+{
+  "payload": {
+    "meta": {
+      "Graph": {
+        "@Type": "81297157",
+        "@Value": {
+          "Guid": "(Guid)b5430773-3042-47d6-a6d3-28650a6ce532",
+          "ParentGuid": "(Guid)00000000-0000-0000-0000-000000000000",
+          "Name": "(string)GlobalTextList",
+          "Properties": {
+            "@Type": "2c41fa04:IDictionary",
+            "@Value": {}
+          },
+          "TypeGuid": "(Guid)63784cbb-9ba0-45e6-9d69-babf3f040511",
+          "EmbeddedTypeGuids": {
+            "@Type": "[Guid]",
+            "@Value": []
+          }
+        }
+      },
+      "TypeInfos": {
+        "2c41fa04": "{2c41fa04-1834-41c1-816e-303c7aa2c05b}",
+        "81297157": "{81297157-7ec9-45ce-845e-84cab2b88ade}",
+        "Guid": "System.Guid",
+        "string": "System.String"
+      }
+    },
+    "object": {
+      "Graph": {
+        "@Type": "63784cbb",
+        "@Value": {
+          "TextList": {
+            "@Type": "ArrayList:IList",
+            "@Value": [
+              {
+                "@Type": "53da1be7",
+                "@Value": {
+                  "TextID": "(string)514",
+                  "TextDefault": "(string)Detent",
+                  "LanguageTexts": {
+                    "@Type": "ArrayList:IList",
+                    "@Value": []
+                  }
+                }
+              },
+              {
+                "@Type": "53da1be7",
+                "@Value": {
+                  "TextID": "(string)226",
+                  "TextDefault": "(string)X",
+                  "LanguageTexts": {
+                    "@Type": "ArrayList:IList",
+                    "@Value": []
+                  }
+                }
+              },
+              {
+                "@Type": "53da1be7",
+                "@Value": {
+                  "TextID": "(string)961",
+                  "TextDefault": "(string)Y",
+                  "LanguageTexts": {
+                    "@Type": "ArrayList:IList",
+                    "@Value": []
+                  }
+                }
+              }
+            ]
+          },
+          "Languages": {
+            "@Type": "ArrayList:IList",
+            "@Value": []
+          },
+          "GuidInit": "(Guid)4eb23ded-9754-4e89-b365-877ba942e706",
+          "GuidReInit": "(Guid)33b6ec6f-de0c-4b15-8c0a-6249f8276b72",
+          "GuidExitX": "(Guid)74f8db1c-c210-4030-8230-13f4b9dcf78a"
+        }
+      },
+      "TypeInfos": {
+        "53da1be7": "{53da1be7-ad25-47c3-b0e8-e26286dad2e0}",
+        "63784cbb": "{63784cbb-9ba0-45e6-9d69-babf3f040511}",
+        "ArrayList": "System.Collections.ArrayList",
+        "Guid": "System.Guid",
+        "string": "System.String"
+      }
+    }
+  },
+  "FormatVersion": "1.0"
+}
