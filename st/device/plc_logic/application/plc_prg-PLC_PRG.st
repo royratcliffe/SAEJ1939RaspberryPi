@@ -2,12 +2,18 @@
 PROGRAM PLC_PRG
 VAR
 	joyst1 : SAEJ1939.Joystick;
+	joyst1Buttons : ARRAY[1..12] OF Button;
 END_VAR
 VAR_TEMP
 	abButtPressStat : ARRAY[1..12] OF BYTE;
+	i : DINT;
 END_VAR
 
 (* --- Implementation --- *)
+IF SysTimeRtcHighResGet(CANNY.SysTimeRtcHighRes) <> CmpErrors.Errors.ERR_OK THEN
+	RETURN;
+END_IF
+
 abButtPressStat[1]  := Joyst1Butt1PressStat;
 abButtPressStat[2]  := Joyst1Butt2PressStat;
 abButtPressStat[3]  := Joyst1Butt3PressStat;
@@ -36,3 +42,7 @@ joyst1(
 	bYAxisDetStat := Joyst1YAxisDetPosStat,
 	(* buttons *)
 	abButtPressStat := abButtPressStat);
+
+FOR i := 1 TO 12 DO
+	joyst1Buttons[i](IN := joyst1.axButtPress[i]);
+END_FOR

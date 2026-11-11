@@ -55,7 +55,7 @@
         "@Type": "f18bec89",
         "@Value": {
           "LastVisuLanguageModelEntry": null,
-          "UniqueIdGenerator": "(string)6",
+          "UniqueIdGenerator": "(string)9",
           "VisualElemList": {
             "@Type": "f285c9a3",
             "@Value": {
@@ -2629,7 +2629,7 @@
                                 "@Type": "c694e3a2",
                                 "@Value": {
                                   "Id": "(long)743958181",
-                                  "Value": "(string)PLC_PRG.joyst1.axButtPress[1]"
+                                  "Value": "(string)PLC_PRG.joyst1Buttons[1].x"
                                 }
                               },
                               {

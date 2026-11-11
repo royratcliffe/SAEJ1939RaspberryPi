@@ -576,13 +576,43 @@
                   "QualifiedOnly": "(bool)False",
                   "LinkAllContent": "(bool)False"
                 }
+              },
+              {
+                "@Type": "51a11660",
+                "@Value": {
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "Name": "(string)SysTime, 3.5.17.0 (System)",
+                  "Id": "(long)2275090615",
+                  "Namespace": "(string)SysTime",
+                  "SystemLibrary": "(bool)False",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              },
+              {
+                "@Type": "51a11660",
+                "@Value": {
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "Name": "(string)CmpErrors2 Interfaces, * (System)",
+                  "Id": "(long)3675099245",
+                  "Namespace": "(string)CmpErrors",
+                  "SystemLibrary": "(bool)False",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
               }
             ]
           },
           "PlaceholderRedirectionTable": {
             "@Type": "Hashtable:IDictionary",
             "@Value": {
-              "CannyIEC": "(string)CannyIEC Library, 0.3.0.0 (Roy Ratcliffe)",
+              "CannyIEC": "(string)CannyIEC Library, 0.3.0.1 (Roy Ratcliffe)",
               "Collections": "(string)Collections, 3.5.17.0 (System)",
               "SAEJ1939": "(string)SAE J1939 Interfaces, 0.0.2.0 (Roy Ratcliffe)",
               "Standard": "(string)Standard, 3.5.22.0 (System)",
