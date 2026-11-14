@@ -20,3 +20,6 @@
 
 # Treat PDF files as binaries
 *.pdf -text
+
+# Treat PNG files as binaries
+*.png -text
