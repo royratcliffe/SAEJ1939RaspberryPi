@@ -1,0 +1,70 @@
+<#
+.SYNOPSIS
+    Re-formats (pretty-prints) all .object files in a directory tree as indented JSON.
+
+.DESCRIPTION
+    Recursively finds *.object files, parses them as JSON, and rewrites them with
+    consistent indentation. Files that fail to parse as JSON are skipped and reported.
+
+.PARAMETER Path
+    Root folder to search for .object files. Defaults to the script's directory.
+
+.PARAMETER WhatIf
+    Preview which files would be reformatted without writing changes.
+
+.EXAMPLE
+    .\Format-ObjectFiles.ps1 -Path project
+#>
+[CmdletBinding(SupportsShouldProcess = $true)]
+param(
+    [string]$Path = $PSScriptRoot
+)
+
+$objectFiles = Get-ChildItem -Path $Path -Filter '*.object' -Recurse -File
+
+if (-not $objectFiles) {
+    Write-Host "No .object files found under '$Path'."
+    return
+}
+
+$formatted = 0
+$skipped = 0
+$failed = 0
+
+foreach ($file in $objectFiles) {
+    try {
+        $raw = Get-Content -LiteralPath $file.FullName -Raw -Encoding UTF8
+        if ([string]::IsNullOrWhiteSpace($raw)) {
+            Write-Warning "Skipping empty file: $($file.FullName)"
+            $skipped++
+            continue
+        }
+
+        $jsonObject = $raw | ConvertFrom-Json
+        $prettyJson = $jsonObject | ConvertTo-Json -Depth 100
+        # Append a newline to the pretty-printed JSON for consistent
+        # file endings. Every line in the file will end with a newline
+        # character. "Formatted" JSON becomes "pretty" with a final
+        # newline. Append a literal newline character, rather than
+        # [Environment]::NewLine in order to ensure consistent line
+        # endings. Make it compatible with LF line endings as defined in
+        # the Git attributes.
+        $formattedJson = $prettyJson + "`n"
+
+        if ($formattedJson -ceq $raw) {
+            $skipped++
+            continue
+        }
+
+        if ($PSCmdlet.ShouldProcess($file.FullName, 'Reformat as indented JSON')) {
+            Set-Content -LiteralPath $file.FullName -Value $formattedJson -Encoding UTF8 -NoNewline
+            $formatted++
+        }
+    }
+    catch {
+        Write-Warning "Failed to format '$($file.FullName)': $($_.Exception.Message)"
+        $failed++
+    }
+}
+
+Write-Host "Done. Formatted: $formatted, Skipped (already formatted/empty): $skipped, Failed: $failed"

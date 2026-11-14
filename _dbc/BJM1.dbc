@@ -1,0 +1,118 @@
+NS_ :
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_ :
+
+BU_ :
+
+BO_ 2365445886 BJM1: 8 Vector__XXX
+	SG_ Joyst1XAxisNeutrPosStat: 0|2@1+ (1,0) [0|3] "" Vector__XXX
+	SG_ Joyst1XAxisLeverLeftNegPosStat: 2|2@1+ (1,0) [0|3] "" Vector__XXX
+	SG_ Joyst1XAxisLeverRightPosPosStat: 4|2@1+ (1,0) [0|3] "" Vector__XXX
+	SG_ Joyst1XAxisPos: 6|10@1+ (0.1,0) [0|102] "%" Vector__XXX
+	SG_ Joyst1YAxisNeutrPosStat: 16|2@1+ (1,0) [0|3] "" Vector__XXX
+	SG_ Joyst1YAxisLeverBackNegPosStat: 18|2@1+ (1,0) [0|3] "" Vector__XXX
+	SG_ Joyst1YAxisLeverForwPosPosStat: 20|2@1+ (1,0) [0|3] "" Vector__XXX
+	SG_ Joyst1YAxisPos: 22|10@1+ (0.1,0) [0|102] "%" Vector__XXX
+	SG_ Joyst1YAxisDetPosStat: 36|2@1+ (1,0) [0|3] "" Vector__XXX
+	SG_ Joyst1XAxisDetPosStat: 38|2@1+ (1,0) [0|3] "" Vector__XXX
+	SG_ Joyst1Butt4PressStat: 40|2@1+ (1,0) [0|3] "" Vector__XXX
+	SG_ Joyst1Butt3PressStat: 42|2@1+ (1,0) [0|3] "" Vector__XXX
+	SG_ Joyst1Butt2PressStat: 44|2@1+ (1,0) [0|3] "" Vector__XXX
+	SG_ Joyst1Butt1PressStat: 46|2@1+ (1,0) [0|3] "" Vector__XXX
+	SG_ Joyst1Butt8PressStat: 48|2@1+ (1,0) [0|3] "" Vector__XXX
+	SG_ Joyst1Butt7PressStat: 50|2@1+ (1,0) [0|3] "" Vector__XXX
+	SG_ Joyst1Butt6PressStat: 52|2@1+ (1,0) [0|3] "" Vector__XXX
+	SG_ Joyst1Butt5PressStat: 54|2@1+ (1,0) [0|3] "" Vector__XXX
+	SG_ Joyst1Butt12PressStat: 56|2@1+ (1,0) [0|3] "" Vector__XXX
+	SG_ Joyst1Butt11PressStat: 58|2@1+ (1,0) [0|3] "" Vector__XXX
+	SG_ Joyst1Butt10PressStat: 60|2@1+ (1,0) [0|3] "" Vector__XXX
+	SG_ Joyst1Butt9PressStat: 62|2@1+ (1,0) [0|3] "" Vector__XXX
+
+CM_ BO_ 2365445886 "Basic Joystick Message 1";
+CM_ SG_ 2365445886 Joyst1XAxisNeutrPosStat "Joystick 1 X-Axis Neutral Position Status";
+CM_ SG_ 2365445886 Joyst1XAxisLeverLeftNegPosStat "Joystick 1 X-Axis Lever Left Negative Position Status";
+CM_ SG_ 2365445886 Joyst1XAxisLeverRightPosPosStat "Joystick 1 X-Axis Lever Right Positive Position Status";
+CM_ SG_ 2365445886 Joyst1XAxisPos "Joystick 1 X-Axis Position";
+CM_ SG_ 2365445886 Joyst1YAxisNeutrPosStat "Joystick 1 Y-Axis Neutral Position Status";
+CM_ SG_ 2365445886 Joyst1YAxisLeverBackNegPosStat "Joystick 1 Y-Axis Lever Back Negative Position Status";
+CM_ SG_ 2365445886 Joyst1YAxisLeverForwPosPosStat "Joystick 1 Y-Axis Lever Forward Positive Position Status";
+CM_ SG_ 2365445886 Joyst1YAxisPos "Joystick 1 Y-Axis Position";
+CM_ SG_ 2365445886 Joyst1YAxisDetPosStat "Joystick 1 Y-Axis Detent Position Status";
+CM_ SG_ 2365445886 Joyst1XAxisDetPosStat "Joystick 1 X-Axis Detent Position Status";
+CM_ SG_ 2365445886 Joyst1Butt4PressStat "Joystick 1 Button 4 Pressed Status";
+CM_ SG_ 2365445886 Joyst1Butt3PressStat "Joystick 1 Button 3 Pressed Status";
+CM_ SG_ 2365445886 Joyst1Butt2PressStat "Joystick 1 Button 2 Pressed Status";
+CM_ SG_ 2365445886 Joyst1Butt1PressStat "Joystick 1 Button 1 Pressed Status";
+CM_ SG_ 2365445886 Joyst1Butt8PressStat "Joystick 1 Button 8 Pressed Status";
+CM_ SG_ 2365445886 Joyst1Butt7PressStat "Joystick 1 Button 7 Pressed Status";
+CM_ SG_ 2365445886 Joyst1Butt6PressStat "Joystick 1 Button 6 Pressed Status";
+CM_ SG_ 2365445886 Joyst1Butt5PressStat "Joystick 1 Button 5 Pressed Status";
+CM_ SG_ 2365445886 Joyst1Butt12PressStat "Joystick 1 Button 12 Pressed Status";
+CM_ SG_ 2365445886 Joyst1Butt11PressStat "Joystick 1 Button 11 Pressed Status";
+CM_ SG_ 2365445886 Joyst1Butt10PressStat "Joystick 1 Button 10 Pressed Status";
+CM_ SG_ 2365445886 Joyst1Butt9PressStat "Joystick 1 Button 9 Pressed Status";
+
+BA_DEF_ SG_ "SPN" INT 0 524287;
+BA_DEF_ BO_ "VFrameFormat" ENUM "StandardCAN","ExtendedCAN","reserved","J1939PG";
+BA_DEF_ "DatabaseVersion" STRING;
+BA_DEF_ "BusType" STRING;
+BA_DEF_ "ProtocolType" STRING;
+BA_DEF_ "DatabaseCompiler" STRING;
+BA_DEF_DEF_ "SPN" 0;
+BA_DEF_DEF_ "VFrameFormat" "J1939PG";
+BA_DEF_DEF_ "DatabaseVersion" "";
+BA_DEF_DEF_ "BusType" "CAN";
+BA_DEF_DEF_ "ProtocolType" "";
+BA_DEF_DEF_ "DatabaseCompiler" "";
+
+BA_ "SPN" SG_ 2365445886 Joyst1XAxisNeutrPosStat 2675;
+BA_ "SPN" SG_ 2365445886 Joyst1XAxisLeverLeftNegPosStat 2670;
+BA_ "SPN" SG_ 2365445886 Joyst1XAxisLeverRightPosPosStat 2665;
+BA_ "SPN" SG_ 2365445886 Joyst1XAxisPos 2660;
+BA_ "SPN" SG_ 2365445886 Joyst1YAxisNeutrPosStat 2676;
+BA_ "SPN" SG_ 2365445886 Joyst1YAxisLeverBackNegPosStat 2671;
+BA_ "SPN" SG_ 2365445886 Joyst1YAxisLeverForwPosPosStat 2666;
+BA_ "SPN" SG_ 2365445886 Joyst1YAxisPos 2661;
+BA_ "SPN" SG_ 2365445886 Joyst1YAxisDetPosStat 2681;
+BA_ "SPN" SG_ 2365445886 Joyst1XAxisDetPosStat 2680;
+BA_ "SPN" SG_ 2365445886 Joyst1Butt4PressStat 2688;
+BA_ "SPN" SG_ 2365445886 Joyst1Butt3PressStat 2687;
+BA_ "SPN" SG_ 2365445886 Joyst1Butt2PressStat 2686;
+BA_ "SPN" SG_ 2365445886 Joyst1Butt1PressStat 2685;
+BA_ "SPN" SG_ 2365445886 Joyst1Butt8PressStat 2692;
+BA_ "SPN" SG_ 2365445886 Joyst1Butt7PressStat 2691;
+BA_ "SPN" SG_ 2365445886 Joyst1Butt6PressStat 2690;
+BA_ "SPN" SG_ 2365445886 Joyst1Butt5PressStat 2689;
+BA_ "SPN" SG_ 2365445886 Joyst1Butt12PressStat 2696;
+BA_ "SPN" SG_ 2365445886 Joyst1Butt11PressStat 2695;
+BA_ "SPN" SG_ 2365445886 Joyst1Butt10PressStat 2694;
+BA_ "SPN" SG_ 2365445886 Joyst1Butt9PressStat 2693;
+

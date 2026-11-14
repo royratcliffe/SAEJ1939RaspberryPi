@@ -5,9 +5,6 @@
 ############################################################
 
 
-# Ignore everything
-/*
-
 # Do not ignore .gitignore files
 !.gitignore
 !*/.gitignore
@@ -23,7 +20,7 @@
 # Do not ignore the directory /project
 !project/
 
-# Ignore *.ours and *.theirs files in 
+# Ignore *.ours and *.theirs files in
 project/**/*.ours
 project/**/*.theirs
 
