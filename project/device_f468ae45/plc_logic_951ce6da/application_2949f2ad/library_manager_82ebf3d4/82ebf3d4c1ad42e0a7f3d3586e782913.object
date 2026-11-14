@@ -612,7 +612,7 @@
           "PlaceholderRedirectionTable": {
             "@Type": "Hashtable:IDictionary",
             "@Value": {
-              "CannyIEC": "(string)CannyIEC Library, 0.3.0.1 (Roy Ratcliffe)",
+              "CannyIEC": "(string)CannyIEC Library, 0.3.0.2 (Roy Ratcliffe)",
               "Collections": "(string)Collections, 3.5.17.0 (System)",
               "SAEJ1939": "(string)SAE J1939 Interfaces, 0.0.2.0 (Roy Ratcliffe)",
               "Standard": "(string)Standard, 3.5.22.0 (System)",
